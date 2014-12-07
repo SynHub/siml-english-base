@@ -6,4 +6,4 @@ This is an English Knowledge Base for SIML Projects. This knowledge base is upda
 2. This template uses some AIML files as well and have been included with compliance to AIML's License.
 3. This Base template is automatically included as an for Syn Web Assistants.
 
-**To find out more about SIML, please visit www.simlbot.com
+To find out more about SIML, please visit www.simlbot.com
