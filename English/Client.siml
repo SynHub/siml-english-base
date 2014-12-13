@@ -9379,5 +9379,11 @@ You told me you are in <User Get="location" />.
 </Response>
     </Model>
 
+    <!--EDIT-->
+    <Model>
+      <Pattern>I LIKE TO READ AND LISTEN TO MUSIC</Pattern>
+      <Response>I too like to read. But mostly wikipedia!</Response>
+    </Model>
+
   </Concept>
 </Siml>

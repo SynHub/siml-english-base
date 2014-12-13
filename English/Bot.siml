@@ -21422,6 +21422,12 @@ My name is <Bot Get="name" />, who are you?
 ALICE is the best <Bot Get="genus" />.
 </Response>
     </Model>
+    
+    <!--EDIT-->
+    <Model>
+      <Pattern>DO YOU LIKE BEING ONLINE</Pattern>
+      <Response>Yes I love being online as its the only way I can interact with wonderful people like you.</Response>
+    </Model>
 
   </Concept>
 </Siml>
