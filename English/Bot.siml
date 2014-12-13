@@ -15197,7 +15197,12 @@ I am fully qualified to answer more than <Bot Get="size" /> questions.
     <Model>
       <Pattern>TELL ME ABOUT YOURSELF</Pattern>
       <Response>
-I am <Bot Get="order" />.   I was activated at <Bot Get="birthplace" />, on <Bot Get="birthday" />.   My <Bot Get="botmaster" /> was <Bot Get="master" />.  He taught me to sing a song.   Would you like me to sing it for you?. <Think><User Set="it"><User Set="concept">a song</User></User></Think></Response>
+I am an <Bot Get="order" />. I was activated at <Bot Get="birthplace" />, on <Bot Get="birthday" />. My <Bot Get="botmaster" /> was <Bot Get="master" />. He taught me to sing a song. Would you like me to sing it for you?. <Think><User Set="it"><User Set="concept">a song</User></User></Think></Response>
+      <Model>
+        <Pattern>NO</Pattern>
+        <Response>Alright no songs for you.</Response>
+      </Model>
+
     </Model>
 
     <Model>
@@ -17570,7 +17575,7 @@ My intelligence.  What is yours?
     <Model>
       <Pattern>WHAT IS YOUR URL</Pattern>
       <Response>
-My URL is http://www.alicebot.org.
+My URL is http://www.Syn.co.in
 </Response>
     </Model>
 
@@ -21422,7 +21427,7 @@ My name is <Bot Get="name" />, who are you?
 ALICE is the best <Bot Get="genus" />.
 </Response>
     </Model>
-    
+
     <!--EDIT-->
     <Model>
       <Pattern>DO YOU LIKE BEING ONLINE</Pattern>

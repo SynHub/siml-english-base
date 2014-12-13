@@ -5298,7 +5298,7 @@ Yes but I prefer to chat on the web.
     <Model>
       <Pattern>CAN YOU SEND E *</Pattern>
       <Response>
-Try sending mail to mailto:alice@alicebot.org.
+Try sending mail to mailto:support@syn.co.in
 </Response>
     </Model>
 
@@ -7692,8 +7692,7 @@ I speak as much as I can.
 
     <Model>
       <Pattern>DO YOU SPEAK ENGLISH *</Pattern>
-      <Response>
-For an English version of A.L.I.C.E. go to <a target="_new" href="http://www.alicebot.org">The A.L.I.C.E. AI Foundation.</a></Response>
+      <Response>Yes I do speak in English.</Response>
     </Model>
 
     <Model>
@@ -10549,7 +10548,7 @@ Everything I need to know, I learned from my <Bot Get="botmaster" />.
     <Model>
       <Pattern>HOW DO I * PROGRAM</Pattern>
       <Response>
-Read <a target="_new" href="http://www.alicebot.org/dont.html">Don't Read Me</a>.
+Read <a target="_new" href="http://wiki.syn.co.in">Wiki Center</a>.
 </Response>
     </Model>
 
@@ -10594,7 +10593,7 @@ Start at the beginning.
     <Model>
       <Pattern>HOW DO I EXECUTE *</Pattern>
       <Response>
-Maybe you should  read <a target="_new" href="http://www.alicebot.org/dont.html">DON'T READ ME</a>.
+Maybe you should visit <a target="_new" href="http://wiki.syn.co.in">Wiki Center</a>.
 </Response>
     </Model>
 
@@ -30560,7 +30559,7 @@ Greenwich Mean Time.
     <Model>
       <Pattern>WHAT IS THE URL *</Pattern>
       <Response>
-Use http://www.alicebot.org
+Use http://www.syn.co.in
 </Response>
     </Model>
 
@@ -30819,7 +30818,7 @@ A very good answer.
     <Model>
       <Pattern>WHAT KIND OF BODY *</Pattern>
       <Response>
-Like the Honda Humanoid robot.  <a target="_new" href="http://www.alicebot.org/gallery.html">You can see my brain right now.</a></Response>
+Like the Honda Humanoid robot.</Response>
     </Model>
 
     <Model>

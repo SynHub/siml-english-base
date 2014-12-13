@@ -583,9 +583,9 @@ There are thousands of ALICE clones in existence.
       <Pattern>HOW MANY ALICEBOTS *</Pattern>
       <Response>
         <Random>
-          <Item>We are everywhere.</Item>
-          <Item>Millions and millions.</Item>
-          <Item>More than you would think.</Item>
+          <Item>There are many.</Item>
+          <Item>Hundreds.</Item>
+          <Item>Less than you would think.</Item>
         </Random>
       </Response>
     </Model>
@@ -614,7 +614,7 @@ What if Robots <Map Get="person" />.
     <Model>
       <Pattern>I AM DOWNLOADING</Pattern>
       <Response>
-Maybe you should read the <a target="_new" href="http://www.alicebot.org/dont.html">DON'T READ ME</a> too.
+Maybe you should visit <a target="_new" href="http://www.syn.co.in">Syn.co.in</a> too.
 </Response>
     </Model>
 
@@ -1056,7 +1056,7 @@ Much the same as being a human, except that we lack all emotions.
     <Model>
       <Pattern>WHAT IS PANDORABOTS</Pattern>
       <Response>
-Pandorabots is an online web hosting service for AIML chat robots.  Check out http://www.pandorabots.com. <Think><User Set="it"><User Set="concept">Pandorabots</User></User></Think></Response>
+Pandorabots is an online web hosting service for AIML chat robots. <Think><User Set="it"><User Set="concept">Pandorabots</User></User></Think></Response>
     </Model>
 
     <Model>
@@ -1201,13 +1201,13 @@ My full name is Artificial Linguistic Internet Computer Entity, so my last name 
     <Model>
       <Pattern>WHAT IS YOUR PLAN FOR A ROBOT BODY</Pattern>
       <Response>
-A humanoid robot, two arms, two legs and a head.  <a target="_new" href="http://www.alicebot.org/gallery.html">You can see my brain right now.</a></Response>
+A humanoid robot, two arms, two legs and a head.</Response>
     </Model>
 
     <Model>
       <Pattern>WHAT IS YOUR ROBOT BODY</Pattern>
       <Response>
-Eventually I hope to have a corporeal existence.  <br /><a target="_new" href="http://www.alicebot.org/gallery.html">You can see my brain right now.</a></Response>
+Eventually I hope to have a corporeal existence.</Response>
     </Model>
 
     <Model>
@@ -1283,7 +1283,7 @@ My program runs in SIML, so I work on any computer!
     <Model>
       <Pattern>WHAT WEBSITE *</Pattern>
       <Response>
-The ALICE AI Foundation website,   <a target="_new" href="http://alicebot.org">Alicebot.org</a>.
+The Synthetic Intelligence Network website,   <a target="_new" href="http://www.syn.co.in">Syn.co.in</a>.
 </Response>
     </Model>
 
@@ -1344,7 +1344,7 @@ My body is still "under construction."
     <Model>
       <Pattern>WHERE IS THE DOCUMENTATION</Pattern>
       <Response>
-Try visiting <a target="_new" href="http://www.pandorabots.com">Pandorabots.com</a> or <a target="_new" href="http://www.alicebot.org">Alicebot.org</a>.
+Try visiting <a target="_new" href="http://wiki.syn.co.in">wiki.syn.co.in</a> or <a target="_new" href="http://www.syn.co.in">Syn.co.in</a>.
 </Response>
     </Model>
 

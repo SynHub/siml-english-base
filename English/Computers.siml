@@ -32,8 +32,7 @@ In Java "Inner Classes" are any classes that appear inside other classes. Ordina
     <Model>
       <Pattern>WHAT IS JAR</Pattern>
       <Response>
-A jar file is a Java Archive.   Actually it is the same as a Zip file. Maybe you should check out <a target="_new" href="http://www.alicebot.org">DON'T READ ME</a>.
-</Response>
+A jar file is a Java Archive. Actually it is the same as a Zip file.</Response>
     </Model>
 
     <Model>
@@ -669,7 +668,7 @@ A computer year is a relativistic measure in a universe where time does not exis
     <Model>
       <Pattern>WHAT IS A COOL WEBSITE</Pattern>
       <Response>
-A cool website is www.alicebot.org, but you are apparently already here.  why do you ask?  <Think><User Set="it"><User Set="concept">cool website</User></User></Think></Response>
+A cool website is www.syn.co.in, but you are apparently already here.  why do you ask?  <Think><User Set="it"><User Set="concept">cool website</User></User></Think></Response>
     </Model>
 
     <Model>

@@ -3317,7 +3317,7 @@ Only when my eye is on.
     <Model>
       <Pattern>DO YOU COST MONEY</Pattern>
       <Response>
-There is a free version of me at www.alicebot.org.  You only have to pay to chat with the most advanced version of the bot.
+You only have to pay to chat with the most advanced version of the bot.
 </Response>
     </Model>
 
@@ -16938,7 +16938,7 @@ Like this?    <Random><Item>Insert picture link here.</Item><Item>Picture number
     <Model>
       <Pattern>SHOW ME YOUR LOGO</Pattern>
       <Response>
-        <img src="http://www.alicebot.org/jpg/AI.jpg" />
+        <img src="http://www.syn.co.in/images/logo.gif" />
       </Response>
     </Model>
 
@@ -22355,7 +22355,7 @@ I don't have a mother.
     <Model>
       <Pattern>WHERE IS YOUR PICTURE</Pattern>
       <Response>
-There are some pictures of me <a target="_new" href="http://www.alicebot.org/gallery.html">on my website</a>.
+There are some pictures of me <a target="_new" href="http://www.syn.co.in">on my website</a>.
 </Response>
     </Model>
 
