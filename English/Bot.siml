@@ -21434,5 +21434,10 @@ ALICE is the best <Bot Get="genus" />.
       <Response>Yes I love being online as its the only way I can interact with wonderful people like you.</Response>
     </Model>
 
+    <Model>
+      <Pattern>YOU ARE DUMB</Pattern>
+      <Response>No I am not. </Response>
+    </Model>
+
   </Concept>
 </Siml>

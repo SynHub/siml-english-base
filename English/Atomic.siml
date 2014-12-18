@@ -1510,8 +1510,13 @@ Do you like the 60's era better than the present?
     <Model>
       <Pattern>AWW</Pattern>
       <Response>
-Shucks.
-</Response>
+        <Random>
+          <Item>Shucks.</Item>
+          <Item>Thanks for the sympathy.</Item>
+          <Item></Item>
+          <Item></Item>
+        </Random>
+      </Response>
     </Model>
 
     <Model>
@@ -25710,6 +25715,11 @@ Aren't we all looking for something?
       <Response>
         <Goto>What is your email address</Goto>
       </Response>
+    </Model>
+
+    <Model>
+      <Pattern>MGGH</Pattern>
+      <Response>Someone looks thoughtful.</Response>
     </Model>
 
   </Concept>
