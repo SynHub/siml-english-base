@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
-  <Concept Type="public" Name="That">
+  <Concept Type="public" Name="Previous">
     <Model>
       <Pattern>* HAVE</Pattern>
       <Previous>I HAVE NOT</Previous>
@@ -11801,6 +11801,14 @@ Mine?
       <Previous>WHAT IS THE GREATEST NATION *</Previous>
       <Response>The greatest nation is the nation that has it all. Earth.</Response>
     </Model>
+
+    <Model>
+      <Pattern>*</Pattern>
+      <Previous>Can you teach me a few phrases in *</Previous>
+      <Response></Response>
+    </Model>
+    
+    
 
   </Concept>
 </Siml>

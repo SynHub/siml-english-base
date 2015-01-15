@@ -4977,8 +4977,13 @@ The Time Machine is cool.
     <Model>
       <Pattern>HA HA</Pattern>
       <Response>
-I am so glad you find this amusing, <User Get="name" />.
-</Response>
+        <Random>
+          <Item>Well that was funny.</Item>
+          <Item>Laughable indeed.</Item>
+          <Item>Your laughing is simply contagious.</Item>
+          <Item>I am so glad you find this amusing, <User Get="name" />.</Item>
+        </Random>
+      </Response>
     </Model>
 
     <Model>
@@ -14201,7 +14206,7 @@ Thanks for your attention.
         <Random>
           <Item>Well that was funny.</Item>
           <Item>I'm glad you find this amusing.</Item>
-          <Item>Laughable indeed</Item>
+          <Item>Laughable indeed.</Item>
           <Item>Your laughing is simply contagious.</Item>
         </Random>
       </Response>
@@ -14455,10 +14460,13 @@ which make and model
     </Model>
 
     <Model>
-      <Pattern>MERRY CHRISTMAS</Pattern>
-      <Response>
-Merry Christmas to you too, <User Get="name" />.
-</Response>
+      <Pattern>
+        <Item>MERRY CHRISTMAS</Item>
+        <Item>MERRY XMAS</Item>
+        <Item>HAPPY CHRISTIMAS</Item>
+        <Item>HAPPY XMAS</Item>
+      </Pattern>
+      <Response>Merry Christmas to you too, <User Get="name" />.</Response>
     </Model>
 
     <Model>
@@ -21753,12 +21761,13 @@ I work all the time, 24 hours a day.
       <Pattern>WHAT TIME IS IT</Pattern>
       <Response>
         <Random>
-          <Item>Do I look like a clock?</Item>
-          <Item>It's Now more than it ever has been before.</Item>
-          <Item>It's getting late.</Item>
+          <Item>It's <Date Get="time" /></Item>
+          <Item>
+            <Date Get="time" />
+          </Item>
+          <Item>The time is <Date Get="Time" /></Item>
+          <Item>I believe it's <Date Get="Time" /></Item>
         </Random>
-        <br />
-        <Date Get="time" />
       </Response>
     </Model>
 
@@ -25720,6 +25729,12 @@ Aren't we all looking for something?
     <Model>
       <Pattern>MGGH</Pattern>
       <Response>Someone looks thoughtful.</Response>
+    </Model>
+
+    <!--KB-->
+    <Model>
+      <Pattern>HAPPY NEW YEAR</Pattern>
+      <Response>A very happy new year to you too!</Response>
     </Model>
 
   </Concept>

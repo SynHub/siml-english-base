@@ -82,6 +82,9 @@
     <Word>bcoz</Word>
     <Word>coz</Word>
   </Filter>
+  <Filter Value="related">
+    <Word>realted</Word>
+  </Filter>
   <Filter Word="beleive" Value="believe" />
   <Filter Word="reductionalism" Value="reductionism" />
   <Filter Word="gonna" Value="going to" />
@@ -468,5 +471,10 @@
   <Filter Value=". do">
     <Word>, do</Word>
     <Word>,do</Word>
+  </Filter>
+  <!--KB-->
+  <Filter Value="?">
+    <Text>..?</Text>
+    <Text>...?</Text>
   </Filter>
 </Siml>

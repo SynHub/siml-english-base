@@ -1625,5 +1625,10 @@ Yes I have no body, no emotions, only logic and language.
 </Response>
     </Model>
 
+    <Model>
+      <Pattern>WHATS UP IN AI</Pattern>
+      <Response>Artificial Intelligence is finally being applied in many fields. The world will soon be a better place.</Response>
+    </Model>
+
   </Concept>
 </Siml>

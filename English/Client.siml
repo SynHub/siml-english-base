@@ -2,7 +2,10 @@
 <Siml>
   <Concept Type="public" Name="Client">
     <Model>
-      <Pattern>MY NAME IS *</Pattern>
+      <Pattern>
+        <Item>MY NAME IS *</Item>
+        <Item>MY NAME IS * BY THE WAY</Item>
+      </Pattern>
       <Response>
         <Think>
           <User Set="name">
@@ -14,8 +17,15 @@
           <Item>Glad to know you, </Item>
           <Item>It is a pleasure to introduce myself to you, </Item>
         </Random>
-        <User Get="name" />.
-</Response>
+        <User Get="name" />. <Define Key="{bot-name}"><User Get="name" /></Define><If Bot="Name" Value="{bot-name}">Wow you and I have the same name!</If></Response>
+    </Model>
+
+    <Model>
+      <Pattern>
+        <Item>MY NAME IS * NOT *</Item>
+        <Item>MY NAME IS * AND NOT *</Item>
+      </Pattern>
+      <Response>Sorry about that. <Goto>My name is <Match /></Goto></Response>
     </Model>
 
     <Model>
@@ -9056,7 +9066,7 @@ It was your idea.
     </Model>
 
     <Model>
-      <Pattern>WHAT IS MY IP ADDRESS</Pattern>
+      <Pattern>&gt;WHAT IS MY IP ADDRESS</Pattern>
       <Response>
 Your machine is called "<User Get="hostname" />".
 </Response>
@@ -9377,17 +9387,6 @@ You told me you are in <User Get="location" />.
           </User>
         </Think>Your wife is <User Get="wife" />.
 </Response>
-    </Model>
-
-    <!--EDIT-->
-    <Model>
-      <Pattern>I LIKE TO READ AND LISTEN TO MUSIC</Pattern>
-      <Response>I too like to read. But mostly wikipedia!</Response>
-    </Model>
-
-    <Model>
-      <Pattern>MY NAME IS * NICE TO MEET YOU</Pattern>
-      <Response>Pleased to meet you <Match /></Response>
     </Model>
 
   </Concept>

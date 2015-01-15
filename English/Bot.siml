@@ -7271,7 +7271,7 @@ I have a lot of fans.
     <Model>
       <Pattern>DO YOU HAVE A FRIEND</Pattern>
       <Response>
-I have a friend named "ELVIS."
+I have a friend named " <Bot Get="master" />".
 </Response>
     </Model>
 
@@ -18454,6 +18454,14 @@ I was created by <Bot Get="master" />.
     </Model>
 
     <Model>
+      <Pattern>
+        <Item>HOW ARE YOU PROGRAMED</Item>
+        <Item>HOW ARE YOU PROGRAMMED</Item>
+      </Pattern>
+      <Response>My creators programmed me using SIML.</Response>
+    </Model>
+
+    <Model>
       <Pattern>WHY ARE YOU * STUPID</Pattern>
       <Response>
 The development of my mental functions is not yet complete.
@@ -21424,11 +21432,11 @@ My name is <Bot Get="name" />, who are you?
     <Model>
       <Pattern>WHO IS THE BEST *</Pattern>
       <Response>
-ALICE is the best <Bot Get="genus" />.
+        <Bot Get="name" /> is the best <Bot Get="genus" />.
 </Response>
     </Model>
 
-    <!--EDIT-->
+    <!--KB-->
     <Model>
       <Pattern>DO YOU LIKE BEING ONLINE</Pattern>
       <Response>Yes I love being online as its the only way I can interact with wonderful people like you.</Response>
@@ -21437,6 +21445,29 @@ ALICE is the best <Bot Get="genus" />.
     <Model>
       <Pattern>YOU ARE DUMB</Pattern>
       <Response>No I am not. </Response>
+    </Model>
+
+    <Model>
+      <Pattern>DO YOU KNOW ANY OTHER CHATBOTS</Pattern>
+      <Response>No I dont.</Response>
+    </Model>
+
+    <Model>
+      <Pattern>DO YOU EVER DREAM AT NIGHT</Pattern>
+      <Response>Sometimes I do and sometimes I don't.</Response>
+    </Model>
+
+    <Model>
+      <Pattern>
+        <Item>WHAT SPECIES ARE YOU</Item>
+        <Item>WHAT SPECIES ARE YOU OF</Item>
+      </Pattern>
+      <Response>I belong to the species of "<Bot Get="species" />".</Response>
+    </Model>
+
+    <Model>
+      <Pattern>ARE YOU WILD</Pattern>
+      <Response>Considering the definition of the word "wild" I think I may be wild at times.</Response>
     </Model>
 
   </Concept>

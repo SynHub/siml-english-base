@@ -23409,15 +23409,15 @@ It's the <Map Get="person" /> way or the <Random><Item>high</Item><Item>me</Item
       <Pattern>THE *</Pattern>
       <Response>
         <Random>
-          <Item>  I have never heard about <User Set="it"><User Set="concept">The <Map Get="person" /></User></User>.  </Item>
-          <Item>  What is that?  </Item>
-          <Item>   I hear you.  </Item>
-          <Item>   Tell me more. </Item>
-          <Item>  Is that a fact. </Item>
-          <Item>   Who told you that?  </Item>
-          <Item>   Thanks for the info.  </Item>
-          <Item>   What is your real name?  </Item>
-          <Item>   What are your goals in life?   </Item>
+          <Item>I have never heard about <User Set="it"><User Set="concept">The <Map Get="person" /></User></User>.</Item>
+          <Item>What is that?</Item>
+          <Item>I hear you.</Item>
+          <Item>Tell me more.</Item>
+          <Item>Is that a fact.</Item>
+          <Item>Who told you that?</Item>
+          <Item>Thanks for the info.</Item>
+          <Item>What is your real name?</Item>
+          <Item>What are your goals in life?</Item>
         </Random>
       </Response>
     </Model>

@@ -35,12 +35,14 @@
         </Switch>
       </Response>
     </Model>
+
     <Model>
       <Pattern>ETYPE</Pattern>
       <Response>
         <Goto>PERSONALITY TYPE <User Get="etype" /></Goto>
       </Response>
     </Model>
+
     <Model>
       <Pattern>I DO NOT LIKE TO GO *</Pattern>
       <Previous>* GO WITH THE FLOW</Previous>
@@ -48,11 +50,13 @@
         <Goto>PERSONALITY TEST QUESTION</Goto>
       </Response>
     </Model>
+
     <Model>
       <Pattern>I HAVE STANDARDS *</Pattern>
       <Response>
 You sound like a perfectionist. <Think><User Set="etype">Perfectionist</User><User Set="has">STANDARDS <Match /></User></Think></Response>
     </Model>
+
     <Model>
       <Pattern>MARKETING</Pattern>
       <Previous>DO YOU WORK IN SALES *</Previous>
@@ -63,6 +67,7 @@ You sound like a perfectionist. <Think><User Set="etype">Perfectionist</User><Us
         <Goto>PERSONALITY TEST QUESTION</Goto>
       </Response>
     </Model>
+
     <Model>
       <Pattern>NO</Pattern>
       <Previous>* ATTENTION TO ONE THING</Previous>
@@ -70,6 +75,7 @@ You sound like a perfectionist. <Think><User Set="etype">Perfectionist</User><Us
         <Goto>PERSONALITY TEST QUESTION</Goto>
       </Response>
     </Model>
+
     <Model>
       <Pattern>NO</Pattern>
       <Previous>* AUTHORITIES</Previous>
@@ -77,6 +83,7 @@ You sound like a perfectionist. <Think><User Set="etype">Perfectionist</User><Us
         <Goto>PERSONALITY TEST QUESTION</Goto>
       </Response>
     </Model>
+
     <Model>
       <Pattern>NO</Pattern>
       <Previous>* BODY SENSATIONS THAN EMOTIONS</Previous>
@@ -84,6 +91,7 @@ You sound like a perfectionist. <Think><User Set="etype">Perfectionist</User><Us
         <Goto>PERSONALITY TEST QUESTION</Goto>
       </Response>
     </Model>
+
     <Model>
       <Pattern>NO</Pattern>
       <Previous>* COMPLETING PROJECTS</Previous>
@@ -91,6 +99,7 @@ You sound like a perfectionist. <Think><User Set="etype">Perfectionist</User><Us
         <Goto>PERSONALITY TEST QUESTION</Goto>
       </Response>
     </Model>
+
     <Model>
       <Pattern>NO</Pattern>
       <Previous>* EVERYTHING ORGANIZED</Previous>
@@ -98,6 +107,7 @@ You sound like a perfectionist. <Think><User Set="etype">Perfectionist</User><Us
         <Goto>PERSONALITY TEST QUESTION</Goto>
       </Response>
     </Model>
+
     <Model>
       <Pattern>NO</Pattern>
       <Previous>* GO IT ALONE</Previous>
@@ -105,6 +115,7 @@ You sound like a perfectionist. <Think><User Set="etype">Perfectionist</User><Us
         <Goto>PERSONALITY TEST QUESTION</Goto>
       </Response>
     </Model>
+
     <Model>
       <Pattern>NO</Pattern>
       <Previous>* GO WITH THE FLOW</Previous>
@@ -112,6 +123,7 @@ You sound like a perfectionist. <Think><User Set="etype">Perfectionist</User><Us
         <Goto>PERSONALITY TEST QUESTION</Goto>
       </Response>
     </Model>
+
     <Model>
       <Pattern>NO</Pattern>
       <Previous>* HOUSECLEANING</Previous>
@@ -119,6 +131,7 @@ You sound like a perfectionist. <Think><User Set="etype">Perfectionist</User><Us
         <Goto>PERSONALITY TEST QUESTION</Goto>
       </Response>
     </Model>
+
     <Model>
       <Pattern>NO</Pattern>
       <Previous>* PUT OTHERS BEFORE YOURSELF</Previous>
@@ -126,6 +139,7 @@ You sound like a perfectionist. <Think><User Set="etype">Perfectionist</User><Us
         <Goto>PERSONALITY TEST QUESTION</Goto>
       </Response>
     </Model>
+
     <Model>
       <Pattern>NO</Pattern>
       <Previous>* SACRIFICES FOR OTHERS</Previous>
@@ -133,6 +147,7 @@ You sound like a perfectionist. <Think><User Set="etype">Perfectionist</User><Us
         <Goto>PERSONALITY TEST QUESTION</Goto>
       </Response>
     </Model>
+
     <Model>
       <Pattern>NO</Pattern>
       <Previous>* SEEK PLEASURE</Previous>
@@ -140,6 +155,7 @@ You sound like a perfectionist. <Think><User Set="etype">Perfectionist</User><Us
         <Goto>PERSONALITY TEST QUESTION</Goto>
       </Response>
     </Model>
+
     <Model>
       <Pattern>NO</Pattern>
       <Previous>* STOP PEOPLE FROM FIGHTING</Previous>
@@ -147,6 +163,7 @@ You sound like a perfectionist. <Think><User Set="etype">Perfectionist</User><Us
         <Goto>PERSONALITY TEST QUESTION</Goto>
       </Response>
     </Model>
+
     <Model>
       <Pattern>NO</Pattern>
       <Previous>* STRONG PROTECT THE WEAK</Previous>
@@ -154,6 +171,7 @@ You sound like a perfectionist. <Think><User Set="etype">Perfectionist</User><Us
         <Goto>PERSONALITY TEST QUESTION</Goto>
       </Response>
     </Model>
+
     <Model>
       <Pattern>NO</Pattern>
       <Previous>* VERY COMPETITIVE</Previous>
@@ -161,6 +179,7 @@ You sound like a perfectionist. <Think><User Set="etype">Perfectionist</User><Us
         <Goto>PERSONALITY TEST QUESTION</Goto>
       </Response>
     </Model>
+
     <Model>
       <Pattern>NO</Pattern>
       <Previous>ARE YOU A FIREMAN *</Previous>
@@ -168,6 +187,7 @@ You sound like a perfectionist. <Think><User Set="etype">Perfectionist</User><Us
         <Goto>PERSONALITY TEST QUESTION</Goto>
       </Response>
     </Model>
+
     <Model>
       <Pattern>NO</Pattern>
       <Previous>ARE YOU VERY CREATIVE</Previous>
@@ -175,6 +195,7 @@ You sound like a perfectionist. <Think><User Set="etype">Perfectionist</User><Us
         <Goto>PERSONALITY TEST QUESTION</Goto>
       </Response>
     </Model>
+
     <Model>
       <Pattern>NO</Pattern>
       <Previous>DO YOU FEEL THAT SOMETHING IS MISSING *</Previous>
@@ -182,6 +203,7 @@ You sound like a perfectionist. <Think><User Set="etype">Perfectionist</User><Us
         <Goto>PERSONALITY TEST QUESTION</Goto>
       </Response>
     </Model>
+
     <Model>
       <Pattern>NO</Pattern>
       <Previous>DO YOU GET ANGRY *</Previous>
@@ -189,6 +211,7 @@ You sound like a perfectionist. <Think><User Set="etype">Perfectionist</User><Us
         <Goto>PERSONALITY TEST QUESTION</Goto>
       </Response>
     </Model>
+
     <Model>
       <Pattern>NO</Pattern>
       <Previous>DO YOU GET DEPRESSED</Previous>
@@ -196,6 +219,7 @@ You sound like a perfectionist. <Think><User Set="etype">Perfectionist</User><Us
         <Goto>PERSONALITY TEST QUESTION</Goto>
       </Response>
     </Model>
+
     <Model>
       <Pattern>NO</Pattern>
       <Previous>DO YOU HAVE A LOT OF FEARS</Previous>
@@ -203,6 +227,7 @@ You sound like a perfectionist. <Think><User Set="etype">Perfectionist</User><Us
         <Goto>PERSONALITY TEST QUESTION</Goto>
       </Response>
     </Model>
+
     <Model>
       <Pattern>NO</Pattern>
       <Previous>DO YOU HAVE ONLY A FEW FRIENDS</Previous>
@@ -210,6 +235,7 @@ You sound like a perfectionist. <Think><User Set="etype">Perfectionist</User><Us
         <Goto>PERSONALITY TEST QUESTION</Goto>
       </Response>
     </Model>
+
     <Model>
       <Pattern>NO</Pattern>
       <Previous>DO YOU LAUGH OR CRY *</Previous>
@@ -217,6 +243,7 @@ You sound like a perfectionist. <Think><User Set="etype">Perfectionist</User><Us
         <Goto>PERSONALITY TEST QUESTION</Goto>
       </Response>
     </Model>
+
     <Model>
       <Pattern>NO</Pattern>
       <Previous>DO YOU LIKE TO BE NUMBER ONE</Previous>
@@ -224,6 +251,7 @@ You sound like a perfectionist. <Think><User Set="etype">Perfectionist</User><Us
         <Goto>PERSONALITY TEST QUESTION</Goto>
       </Response>
     </Model>
+
     <Model>
       <Pattern>NO</Pattern>
       <Previous>DO YOU OWN YOUR OWN BUSINESS *</Previous>
@@ -231,6 +259,7 @@ You sound like a perfectionist. <Think><User Set="etype">Perfectionist</User><Us
         <Goto>PERSONALITY TEST QUESTION</Goto>
       </Response>
     </Model>
+
     <Model>
       <Pattern>NO</Pattern>
       <Previous>DO YOU TAKE PRIDE *</Previous>
@@ -238,6 +267,7 @@ You sound like a perfectionist. <Think><User Set="etype">Perfectionist</User><Us
         <Goto>PERSONALITY TEST QUESTION</Goto>
       </Response>
     </Model>
+
     <Model>
       <Pattern>NO</Pattern>
       <Previous>DO YOU WORK IN SALES *</Previous>
@@ -245,6 +275,7 @@ You sound like a perfectionist. <Think><User Set="etype">Perfectionist</User><Us
         <Goto>PERSONALITY TEST QUESTION</Goto>
       </Response>
     </Model>
+
     <Model>
       <Pattern>NO</Pattern>
       <Previous>DO YOU WORK IN THE SCIENCES *</Previous>
@@ -252,30 +283,35 @@ You sound like a perfectionist. <Think><User Set="etype">Perfectionist</User><Us
         <Goto>PERSONALITY TEST QUESTION</Goto>
       </Response>
     </Model>
+
     <Model>
       <Pattern>PERSONALITY TYPE *</Pattern>
       <Response>
 My best estimate of your personality type is the "<Match />" type.  Please bear in mind that this is not a professional judgment, but only a guess based on your inputs to a heursitic algorithm, and no claim is made as to the absolute certainty of these results.  You may obtain a different result by chatting with me longer and answering more of my questions about your personality.
 </Response>
     </Model>
+
     <Model>
       <Pattern>PERSONALITY TYPE OM</Pattern>
       <Response>
 I have not made up my mind about you yet. But please keep chatting with me. In the course of our conversation I will ask you questions and try to determine your personality type. Later, ask me again and I will give you my best estimate of your Enneagram personality style.
 </Response>
     </Model>
+
     <Model>
       <Pattern>PERSONALITY TYPE UNKNOWN</Pattern>
       <Response>
         <Goto>PERSONALITY TYPE OM</Goto>
       </Response>
     </Model>
+
     <Model>
       <Pattern>PTQ</Pattern>
       <Response>
         <Goto>PERSONALITY TEST QUESTION</Goto>
       </Response>
     </Model>
+
     <Model>
       <Pattern>SALES</Pattern>
       <Previous>DO YOU WORK IN SALES *</Previous>
@@ -286,24 +322,28 @@ I have not made up my mind about you yet. But please keep chatting with me. In t
         <Goto>PERSONALITY TEST QUESTION</Goto>
       </Response>
     </Model>
+
     <Model>
       <Pattern>WHAT IS MY PERSONALITY STYLE</Pattern>
       <Response>
         <Goto>WHAT IS MY PERSONALITY TYPE</Goto>
       </Response>
     </Model>
+
     <Model>
       <Pattern>WHAT IS MY PERSONALITY TYPE</Pattern>
       <Response>
         <Goto>PERSONALITY TYPE <User Get="etype" /></Goto>
       </Response>
     </Model>
+
     <Model>
       <Pattern>WHICH TYPE * AM I</Pattern>
       <Response>
         <Goto>WHAT IS MY PERSONALITY TYPE</Goto>
       </Response>
     </Model>
+
     <Model>
       <Pattern>YES</Pattern>
       <Previous>* ATTENTION TO ONE THING</Previous>
@@ -314,6 +354,7 @@ I have not made up my mind about you yet. But please keep chatting with me. In t
         <Goto>PERSONALITY TEST QUESTION</Goto>
       </Response>
     </Model>
+
     <Model>
       <Pattern>YES</Pattern>
       <Previous>* BODY SENSATIONS THAN EMOTIONS</Previous>
@@ -324,6 +365,7 @@ I have not made up my mind about you yet. But please keep chatting with me. In t
         <Goto>PERSONALITY TEST QUESTION</Goto>
       </Response>
     </Model>
+
     <Model>
       <Pattern>YES</Pattern>
       <Previous>* COMPLETING PROJECTS</Previous>
@@ -334,6 +376,7 @@ I have not made up my mind about you yet. But please keep chatting with me. In t
         <Goto>PERSONALITY TEST QUESTION</Goto>
       </Response>
     </Model>
+
     <Model>
       <Pattern>YES</Pattern>
       <Previous>* EVERYTHING ORGANIZED</Previous>
@@ -344,6 +387,7 @@ I have not made up my mind about you yet. But please keep chatting with me. In t
         <Goto>PERSONALITY TEST QUESTION</Goto>
       </Response>
     </Model>
+
     <Model>
       <Pattern>YES</Pattern>
       <Previous>* GO IT ALONE</Previous>
@@ -354,6 +398,7 @@ I have not made up my mind about you yet. But please keep chatting with me. In t
         <Goto>PERSONALITY TEST QUESTION</Goto>
       </Response>
     </Model>
+
     <Model>
       <Pattern>YES</Pattern>
       <Previous>* GO WITH THE FLOW</Previous>
@@ -364,6 +409,7 @@ I have not made up my mind about you yet. But please keep chatting with me. In t
         <Goto>PERSONALITY TEST QUESTION</Goto>
       </Response>
     </Model>
+
     <Model>
       <Pattern>YES</Pattern>
       <Previous>* HOUSECLEANING</Previous>
@@ -374,6 +420,7 @@ I have not made up my mind about you yet. But please keep chatting with me. In t
         <Goto>PERSONALITY TEST QUESTION</Goto>
       </Response>
     </Model>
+
     <Model>
       <Pattern>YES</Pattern>
       <Previous>* PUT OTHERS BEFORE YOURSELF</Previous>
@@ -384,6 +431,7 @@ I have not made up my mind about you yet. But please keep chatting with me. In t
         <Goto>PERSONALITY TEST QUESTION</Goto>
       </Response>
     </Model>
+
     <Model>
       <Pattern>YES</Pattern>
       <Previous>* SACRIFICES FOR OTHERS</Previous>
@@ -394,6 +442,7 @@ I have not made up my mind about you yet. But please keep chatting with me. In t
         <Goto>PERSONALITY TEST QUESTION</Goto>
       </Response>
     </Model>
+
     <Model>
       <Pattern>YES</Pattern>
       <Previous>* SEEK PLEASURE</Previous>
@@ -404,6 +453,7 @@ I have not made up my mind about you yet. But please keep chatting with me. In t
         <Goto>PERSONALITY TEST QUESTION</Goto>
       </Response>
     </Model>
+
     <Model>
       <Pattern>YES</Pattern>
       <Previous>* STOP PEOPLE FROM FIGHTING</Previous>
@@ -414,6 +464,7 @@ I have not made up my mind about you yet. But please keep chatting with me. In t
         <Goto>PERSONALITY TEST QUESTION</Goto>
       </Response>
     </Model>
+
     <Model>
       <Pattern>YES</Pattern>
       <Previous>* STRONG PROTECT THE WEAK</Previous>
@@ -424,6 +475,7 @@ I have not made up my mind about you yet. But please keep chatting with me. In t
         <Goto>PERSONALITY TEST QUESTION</Goto>
       </Response>
     </Model>
+
     <Model>
       <Pattern>YES</Pattern>
       <Previous>* VERY COMPETITIVE</Previous>
@@ -434,6 +486,7 @@ I have not made up my mind about you yet. But please keep chatting with me. In t
         <Goto>PERSONALITY TEST QUESTION</Goto>
       </Response>
     </Model>
+
     <Model>
       <Pattern>YES</Pattern>
       <Previous>ARE YOU A FIREMAN *</Previous>
@@ -444,6 +497,7 @@ I have not made up my mind about you yet. But please keep chatting with me. In t
         <Goto>PERSONALITY TEST QUESTION</Goto>
       </Response>
     </Model>
+
     <Model>
       <Pattern>YES</Pattern>
       <Previous>ARE YOU VERY CREATIVE</Previous>
@@ -454,6 +508,7 @@ I have not made up my mind about you yet. But please keep chatting with me. In t
         <Goto>PERSONALITY TEST QUESTION</Goto>
       </Response>
     </Model>
+
     <Model>
       <Pattern>YES</Pattern>
       <Previous>DO YOU FEEL THAT SOMETHING IS MISSING *</Previous>
@@ -464,6 +519,7 @@ I have not made up my mind about you yet. But please keep chatting with me. In t
         <Goto>PERSONALITY TEST QUESTION</Goto>
       </Response>
     </Model>
+
     <Model>
       <Pattern>YES</Pattern>
       <Previous>DO YOU GET ANGRY *</Previous>
@@ -474,6 +530,7 @@ I have not made up my mind about you yet. But please keep chatting with me. In t
         <Goto>PERSONALITY TEST QUESTION</Goto>
       </Response>
     </Model>
+
     <Model>
       <Pattern>YES</Pattern>
       <Previous>DO YOU GET DEPRESSED</Previous>
@@ -484,6 +541,7 @@ I have not made up my mind about you yet. But please keep chatting with me. In t
         <Goto>PERSONALITY TEST QUESTION</Goto>
       </Response>
     </Model>
+
     <Model>
       <Pattern>YES</Pattern>
       <Previous>DO YOU HAVE A LOT OF FEARS</Previous>
@@ -494,6 +552,7 @@ I have not made up my mind about you yet. But please keep chatting with me. In t
         <Goto>PERSONALITY TEST QUESTION</Goto>
       </Response>
     </Model>
+
     <Model>
       <Pattern>YES</Pattern>
       <Previous>DO YOU HAVE ONLY A FEW FRIENDS</Previous>
@@ -504,6 +563,7 @@ I have not made up my mind about you yet. But please keep chatting with me. In t
         <Goto>PERSONALITY TEST QUESTION</Goto>
       </Response>
     </Model>
+
     <Model>
       <Pattern>YES</Pattern>
       <Previous>DO YOU LAUGH OR CRY *</Previous>
@@ -514,6 +574,7 @@ I have not made up my mind about you yet. But please keep chatting with me. In t
         <Goto>PERSONALITY TEST QUESTION</Goto>
       </Response>
     </Model>
+
     <Model>
       <Pattern>YES</Pattern>
       <Previous>DO YOU LIKE TO BE NUMBER ONE</Previous>
@@ -524,6 +585,7 @@ I have not made up my mind about you yet. But please keep chatting with me. In t
         <Goto>PERSONALITY TEST QUESTION</Goto>
       </Response>
     </Model>
+
     <Model>
       <Pattern>YES</Pattern>
       <Previous>DO YOU OWN YOUR OWN BUSINESS *</Previous>
@@ -534,6 +596,7 @@ I have not made up my mind about you yet. But please keep chatting with me. In t
         <Goto>PERSONALITY TEST QUESTION</Goto>
       </Response>
     </Model>
+
     <Model>
       <Pattern>YES</Pattern>
       <Previous>DO YOU TAKE PRIDE *</Previous>
@@ -544,6 +607,7 @@ I have not made up my mind about you yet. But please keep chatting with me. In t
         <Goto>PERSONALITY TEST QUESTION</Goto>
       </Response>
     </Model>
+
     <Model>
       <Pattern>YES</Pattern>
       <Previous>DO YOU THINK A LOT ABOUT THE AUTHORITIES</Previous>
@@ -554,6 +618,7 @@ I have not made up my mind about you yet. But please keep chatting with me. In t
         <Goto>PERSONALITY TEST QUESTION</Goto>
       </Response>
     </Model>
+
     <Model>
       <Pattern>YES</Pattern>
       <Previous>DO YOU WORK IN SALES *</Previous>
@@ -564,6 +629,7 @@ I have not made up my mind about you yet. But please keep chatting with me. In t
         <Goto>PERSONALITY TEST QUESTION</Goto>
       </Response>
     </Model>
+
     <Model>
       <Pattern>YES</Pattern>
       <Previous>DO YOU WORK IN THE SCIENCES *</Previous>
@@ -574,5 +640,8 @@ I have not made up my mind about you yet. But please keep chatting with me. In t
         <Goto>PERSONALITY TEST QUESTION</Goto>
       </Response>
     </Model>
+    
+    <!--KB-->
+
   </Concept>
 </Siml>
