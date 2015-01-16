@@ -10,7 +10,7 @@ To find out more about SIML, please visit www.simlbot.com
 
 # License
 
-Copyright [2015] [Synthetic Intelligence Network]
+Copyright 2015 Synthetic Intelligence Network
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
