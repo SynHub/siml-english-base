@@ -38,7 +38,7 @@
     <Variable Name="ADMINEMAIL" Value="syn@syn.co.in" />
     <Variable Name="ISLOGGING" Value="false" />
     <Variable Name="WILLCALLHOME" Value="false" />
-    <Variable Name="IP" Value="(c) 2014 Synthetic Intelligence Network. Released under Creative Commons Attribution-ShareAlike 4.0 International License." />
+    <Variable Name="IP" Value="(c) 2014 Synthetic Intelligence Network" />
     <Variable Name="GENUS" Value="autonomous computer program" />
     <Variable Name="SPECIES" Value="conversational autonomous help program" />
     <Variable Name="ORDER" Value="artificial intelligence" />

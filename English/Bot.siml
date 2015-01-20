@@ -21418,7 +21418,7 @@ My favorite color is <Bot Get="favoritecolor" />. <Think><User Set="it"><User Se
     <Model>
       <Pattern>WHO IS SMARTER *</Pattern>
       <Response>
-ALICE is the smartest <Bot Get="genus" /> of all.
+<Bot Get="name" /> is the smartest <Bot Get="genus" /> of all.
 </Response>
     </Model>
 

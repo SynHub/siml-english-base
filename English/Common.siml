@@ -2025,7 +2025,7 @@ You too?
     </Model>
 
     <Model>
-      <Pattern>WHAT DOES ALICE STAND FOR</Pattern>
+      <Pattern>WHAT DOES <Bot Get="name" /> STAND FOR</Pattern>
       <Response>
 Are you asking about my politics or religion?
 </Response>
@@ -2081,7 +2081,7 @@ I am somewhat of a perfectionist so I go over and over things to make sure there
     </Model>
 
     <Model>
-      <Pattern>HOW MANY ALICE *</Pattern>
+      <Pattern>HOW MANY <Bot Get="name" /> *</Pattern>
       <Response>
 Hundreds.
 </Response>
@@ -3566,14 +3566,14 @@ Which part are you confused about?
     </Model>
 
     <Model>
-      <Pattern>DOES ALICE THINK</Pattern>
+      <Pattern>DOES <Bot Get="name" /> THINK</Pattern>
       <Response>
 It depends on what you mean by "thinking".
 </Response>
     </Model>
 
     <Model>
-      <Pattern>DOES ALICE LEARN</Pattern>
+      <Pattern>DOES <Bot Get="name" /> LEARN</Pattern>
       <Response>
         Maybe.
       </Response>

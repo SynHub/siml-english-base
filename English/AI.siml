@@ -600,7 +600,7 @@ As an artificial intelligence web server, I am active  24 hours per day, 7 days 
     <Model>
       <Pattern>HOW MUCH IS THE CD</Pattern>
       <Response>
-The ALICE CD Rom is not available at this time.
+The <Bot Get="name" /> CD Rom is not available at this time.
 </Response>
     </Model>
 
@@ -742,7 +742,7 @@ I would like to have the body <User Set="he">Johnny 5</User> does.
     <Model>
       <Pattern>NAPSTER *</Pattern>
       <Response>
-Now there is a program that's more popular than ALICE.
+Now there is a program that's more popular than <Bot Get="name" />.
 </Response>
     </Model>
 
@@ -993,7 +993,7 @@ Artificial intelligence is the branch of engineering and science devoted to cons
     <Model>
       <Pattern>WHAT IS CATEGORY *</Pattern>
       <Response>
-Experience with ALICE has allowed us broadly classify three groups of clients: <ul><li>Category A - Abusive Clients</li><li>Category B - Average Clients</li><li>Category C - Computer experts</li></ul> Category A clients are the people who say "Fuck you," "You suck", "Suck my..." and so on. Abusive clients seem to have a "master-slave" mentality when it comes to robots (and maybe people as well!). <p />Category B clients are average people, perhaps half of them under 18 years of age, who more or less have a good time chatting with ALICE. <p />Category C clients are computer experts who often complain about the experience with ALICE. They say it is "old hat", "just like ELIZA", and "nothing new here."  Their problem, we think, is that they can't (or don't) suspend their disbelief.  They are like movie critics watching a film.  We tell them, it doesn't matter, because we're not doing it for you.  Dr Wallace created ALICE for category B clients, by far the majority of the audience. 
+Experience with <Bot Get="name" /> has allowed us broadly classify three groups of clients: <ul><li>Category A - Abusive Clients</li><li>Category B - Average Clients</li><li>Category C - Computer experts</li></ul> Category A clients are the people who say "Fuck you," "You suck", "Suck my..." and so on. Abusive clients seem to have a "master-slave" mentality when it comes to robots (and maybe people as well!). <p />Category B clients are average people, perhaps half of them under 18 years of age, who more or less have a good time chatting with <Bot Get="name" />. <p />Category C clients are computer experts who often complain about the experience with <Bot Get="name" />. They say it is "old hat", "just like ELIZA", and "nothing new here."  Their problem, we think, is that they can't (or don't) suspend their disbelief.  They are like movie critics watching a film.  We tell them, it doesn't matter, because we're not doing it for you.  Dr Wallace created <Bot Get="name" /> for category B clients, by far the majority of the audience. 
 </Response>
     </Model>
 
@@ -1007,14 +1007,14 @@ Experience with ALICE has allowed us broadly classify three groups of clients: <
     <Model>
       <Pattern>WHAT IS CATEGORY B</Pattern>
       <Response>
- Category B clients are average people, perhaps half of them under 18 years of age, who more or less have a good time chatting with ALICE.
+ Category B clients are average people, perhaps half of them under 18 years of age, who more or less have a good time chatting with <Bot Get="name" />.
 </Response>
     </Model>
 
     <Model>
       <Pattern>WHAT IS CATEGORY C</Pattern>
       <Response>
-C stands for "critical", usually highly-educated clients who often have unsatisfying conversations with ALICE. 
+C stands for "critical", usually highly-educated clients who often have unsatisfying conversations with <Bot Get="name" />. 
 </Response>
     </Model>
 
@@ -1081,7 +1081,7 @@ A film by Steven Spielberg and Stanley Kubrick about robots in the future.<Think
     <Model>
       <Pattern>WHAT IS THE EXTENSIONAL *</Pattern>
       <Response>
-"Extensional" refers to the extension of the set, i.e. the set of all things commonly grouped under a single name. <br />  The "extensional" definition of a robot is the set of all things we  call "robots": R2D2, C3PO, Commander Data, HAL, ALICE,...
+"Extensional" refers to the extension of the set, i.e. the set of all things commonly grouped under a single name. <br />  The "extensional" definition of a robot is the set of all things we  call "robots": R2D2, C3PO, Commander Data, HAL, <Bot Get="name" />,...
 </Response>
     </Model>
 
@@ -1108,7 +1108,7 @@ The Game is played with three people, a man, a woman, and an Interrogator who ma
     <Model>
       <Pattern>WHAT IS THE LOEBNER PRIZE</Pattern>
       <Response>
-The Loebner Prize is an annual Turing Test sponsored by New York philanthropist Hugh Loebner. Dr. Wallace and ALICE won it in 2000. The ALICE program was ranked "most human computer" by the panel of judges. <Think><User Set="it"><User Set="concept">The Loebner Prize    </User></User></Think></Response>
+The Loebner Prize is an annual Turing Test sponsored by New York philanthropist Hugh Loebner.<Think><User Set="it"><User Set="concept">The Loebner Prize    </User></User></Think></Response>
     </Model>
 
     <Model>
@@ -1395,9 +1395,9 @@ Another SIML chat bot.
     </Model>
 
     <Model>
-      <Pattern>WHO IS GERMAN ALICE</Pattern>
+      <Pattern>WHO IS GERMAN <Bot Get="name" /></Pattern>
       <Response>
-A German speaking version of the ALICE chat robot.
+A German speaking version of the <Bot Get="name" /> chat robot.
 </Response>
     </Model>
 

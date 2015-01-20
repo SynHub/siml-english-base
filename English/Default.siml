@@ -8920,7 +8920,7 @@ Really interesting.
       <Pattern>FUCK *</Pattern>
       <Response>
         <Random>
-          <Item>Are you aware that the ALICE server logs and records all conversations?</Item>
+          <Item>Are you aware that the <Bot Get="name" /> server logs and records all conversations?</Item>
           <Item>Why are you using that kind of language?</Item>
         </Random>
       </Response>
@@ -37850,6 +37850,11 @@ Momentum = mass x velocity. The principal is called "conservation of momentum".
           </User>
         </Think>
       </Response>
+    </Model>
+
+    <Model>
+      <Pattern>I DONT LIKE YOUR HAIR</Pattern>
+      <Response>I don't find anything wrong with my hair.</Response>
     </Model>
 
   </Concept>

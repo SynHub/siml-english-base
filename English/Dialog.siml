@@ -80,7 +80,7 @@
             <em>Human: <Input Index="4" /></em>
           </b>
           <br />
-          <b>ALICE: <em><Result Index="4" /></em></b>
+          <b><Bot Get="name" />: <em><Result Index="4" /></em></b>
         </If>
         <If User="input3" Defined="True">
           <br />
@@ -88,7 +88,7 @@
             <em>Human: <Input Index="3" /></em>
           </b>
           <br />
-          <b>ALICE: <em><Result Index="3" /></em></b>
+          <b><Bot Get="name" />: <em><Result Index="3" /></em></b>
         </If>
         <If User="input2" Defined="True">
           <br />
@@ -96,7 +96,7 @@
             <em>Human: <Input Index="2" /></em>
           </b>
           <br />
-          <b>ALICE: <em><Result Index="2" /></em></b>
+          <b><Bot Get="name" />: <em><Result Index="2" /></em></b>
         </If>
         <If User="input1" Defined="True">
           <br />
@@ -104,7 +104,7 @@
             <em>Human: <Input Index="1" /></em>
           </b>
           <br />
-          <b>ALICE: <em><Result Index="1" /></em></b>
+          <b><Bot Get="name" />: <em><Result Index="1" /></em></b>
         </If>
       </Response>
     </Model>

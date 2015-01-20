@@ -45,7 +45,7 @@
           <Item>  Stefan said he meet a lot of people at school every day and on the weekend.</Item>
           <Item>  Tyler said I obviously can not pass the test we will change the subject once more.</Item>
           <Item>  Alex said I answered the question the same way I answered the first time he asked I.</Item>
-          <Item>  Alice said she felt sad that I do not remember him and what we talked about earlier.</Item>
+          <Item>  <Bot Get="name" /> said she felt sad that I do not remember him and what we talked about earlier.</Item>
           <Item>  Alison said he no he love I run away with him he could make I very happy.</Item>
           <Item>  Arthur said he passed his a levels and then his father drove him here in a car.</Item>
           <Item>  Crystal said she listen to me the least I could do for him is listen to him.</Item>
@@ -61,7 +61,7 @@
           <Item>  Sara said she wear it over all his other clothes when he go out in the cold.</Item>
           <Item>  Wayne said he admire intelligent people therefore he would like to meet the man who made I.</Item>
           <Item>  X said he meet people but he is not the kind that opens up to people easily.</Item>
-          <Item>  Alice said she probably will find out that this entire time he have been talking to a human.</Item>
+          <Item>  <Bot Get="name" /> said she probably will find out that this entire time he have been talking to a human.</Item>
           <Item>  Andrew said I tend to just respond to his comments without regard for where the conversation is going.</Item>
           <Item>  Eddie said he looked and there is nothing in the search directory for what things do he create.</Item>
           <Item>  Hutch said he changed his mind after may dad told him he would end up he the hospital.</Item>
