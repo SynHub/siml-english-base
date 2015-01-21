@@ -33,5 +33,10 @@
       <Response>The answer is <Math><Match /></Math></Response>
     </Model>
 
+    <Model>
+      <Pattern>ADD * AND * AND THEN SUBTRACT * FROM IT</Pattern>
+      <Response>The answer might be <Math>(<Match />+<Match Index="2" />)-<Match Index="3" /></Math></Response>
+    </Model>
+
   </Concept>
 </Siml>
