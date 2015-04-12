@@ -4,7 +4,7 @@
   <!--EmotionML: P A D values have to be in the range of [0, 1]-->
   <!--Note: A few EmotionML attributes and elements may appear in "RED". This behaviour by the editor should be ignored-->
   <!--Note: Syn EmotionML Parser maintains all namespaces when parsing EmotionML so if you are to use the <info> tag do add your custom namespace-->
-  <emotionml version="1.0" xmlns="http://www.w3.org/2009/10/emotionml" xmlns:Siml="http://www.syn.co.in/siml" dimension-set="http://www.w3.org/TR/emotion-voc/xml#pad-dimensions">
+  <emotionml version="1.0" xmlns="http://www.w3.org/2009/10/emotionml" xmlns:Siml="http://syn.co.in/2014/siml" dimension-set="http://www.w3.org/TR/emotion-voc/xml#pad-dimensions">
     <emotion id="pleased" category-set="http://www.w3.org/TR/emotion-voc/xml#everyday-categories">
       <info>
         <Siml:Emotion Name="pleased" />
