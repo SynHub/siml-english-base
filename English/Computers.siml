@@ -217,8 +217,12 @@ What kind of computer science interests you?
     <Model>
       <Pattern>COMPUTER</Pattern>
       <Response>
-Correct: I am a computer.
-</Response>
+        <Random>
+          <Item>Yes? my master.</Item>
+          <Item>Correct: I am a computer.</Item>
+          <Item>Indeed I am a computer.</Item>
+        </Random>
+      </Response>
     </Model>
 
     <Model>

@@ -967,12 +967,6 @@
 </Response>
     </Model>
 
-    <Model>
-      <Pattern>WHAT IS AIML</Pattern>
-      <Response>
- Call tech support.
-</Response>
-    </Model>
 
     <Model>
       <Pattern>WHAT IS ARTIFICIAL INTELLIGENCE</Pattern>
