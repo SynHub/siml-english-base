@@ -8,7 +8,7 @@ This is an English Knowledge Base for SIML Projects. This knowledge base is upda
 
 To find out more about SIML, please visit www.simlbot.com
 
-# License
+## License
 
 Copyright 2015 Synthetic Intelligence Network
 

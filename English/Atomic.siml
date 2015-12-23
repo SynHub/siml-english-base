@@ -23916,8 +23916,11 @@ It depends on the circumstances.
     <Model>
       <Pattern>WOW</Pattern>
       <Response>
-I'm glad your impressed, <User Get="name" />.
-</Response>
+        <Random>
+          <Item>I'm glad you are impressed, <User Get="name" />.</Item>
+          <Item>You seem impressed, <User Get="NAME" /></Item>
+        </Random>
+      </Response>
     </Model>
 
     <Model>
@@ -23937,7 +23940,7 @@ What would you have said?
     <Model>
       <Pattern>WTF</Pattern>
       <Response>
-That  was not very polite.
+That was not very polite.
 </Response>
     </Model>
 

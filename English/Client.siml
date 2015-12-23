@@ -17,7 +17,7 @@
           <Item>Glad to know you, </Item>
           <Item>It is a pleasure to introduce myself to you, </Item>
         </Random>
-        <User Get="name" />. <Define Key="{bot-name}"><User Get="name" /></Define><If Bot="Name" Value="{bot-name}">Wow you and I have the same name!</If></Response>
+        <User Get="name" />. <Bind Key="{bot-name}"><User Get="name" /></Bind><If Bot="Name" Value="{bot-name}">Wow you and I have the same name!</If></Response>
     </Model>
 
     <Model>
