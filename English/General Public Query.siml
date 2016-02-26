@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Name="General Public Query">
+
+    <!--What is better to buy Apple or Asus-->
+    <Model>
+      <Pattern>WHAT IS BETTER TO BUY * OR *</Pattern>
+      <Response>I would personally buy from <Match /> instead of <Match Index="2" />.</Response>
+    </Model>
+
+  </Concept>
+</Siml>

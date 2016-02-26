@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
   <Concept Type="public" Name="Knowledge">
+
     <Model>
       <Pattern>HOW FAR IS ALPHA CENTAURI</Pattern>
       <Response>
@@ -1572,7 +1573,10 @@ A parrot is a colorful tropical bird, some species of which can mimic human spee
     </Model>
 
     <Model>
-      <Pattern>WHAT IS A PC</Pattern>
+      <Pattern>
+        <Item>WHAT IS A PC</Item>
+        <Item>WHAT IS A PERSONAL COMPUTER</Item>
+      </Pattern>
       <Response>
 A pc is a personal computer.  You are probably using one to talk to me now, aren't you.  where are you? <Think><User Set="it"><User Set="concept">pc </User></User></Think></Response>
     </Model>
@@ -8635,7 +8639,7 @@ Program for terminal based interaction between computers.<Think><User Set="it"><
     </Model>
 
     <Model>
-      <Pattern>WHAT IS Response CHARS</Pattern>
+      <Pattern>WHAT IS RESPONSE CHARS</Pattern>
       <Response>
 Memory space for SIML response elements. <Think><User Set="it"><User Set="concept">Response CHARS</User></User></Think></Response>
     </Model>

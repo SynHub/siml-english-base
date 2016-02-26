@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
   <Concept Type="public" Name="Atomic">
+
     <Model>
       <Pattern>DELICIOUS</Pattern>
       <Response>
@@ -28,30 +29,22 @@ That won't buy anything.
 
     <Model>
       <Pattern>1 OR 2</Pattern>
-      <Response>
-A couple.
-</Response>
+      <Response>A couple.</Response>
     </Model>
 
     <Model>
       <Pattern>1 YEAR</Pattern>
-      <Response>
-That can seem like a long time.
-</Response>
+      <Response>That can seem like a long time.</Response>
     </Model>
 
     <Model>
       <Pattern>123456789</Pattern>
-      <Response>
-Ten.
-</Response>
+      <Response>Ten.</Response>
     </Model>
 
     <Model>
       <Pattern>153</Pattern>
-      <Response>
-One hundred fifty three.
-</Response>
+      <Response>One hundred fifty three.</Response>
     </Model>
 
     <Model>
