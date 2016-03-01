@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
   <Concept Type="public" Name="Bot">
+
     <Model>
       <Pattern>ARE YOU * BED</Pattern>
       <Response>
@@ -32,7 +33,7 @@ What makes you think I am a program?
     <Model>
       <Pattern>ARE YOU *</Pattern>
       <Response>
-I don't know whether or not I am <Map Get="person" />.     I am <Random><Item>a <Bot Get="kingdom" />.  </Item><Item> a <Bot Get="phylum" />.  </Item><Item>a <Bot Get="class" />.  </Item><Item>a <Bot Get="order" />.  </Item><Item>a <Bot Get="family" />.  </Item><Item>a <Bot Get="genus" />.  </Item><Item>a <Bot Get="species" />.  </Item><Item>well respected as an <Bot Get="class" />.  </Item></Random></Response>
+I don't know whether or not I am <Map Get="person" />. I am <Random><Item>a <Bot Get="kingdom" />. </Item><Item> a <Bot Get="phylum" />. </Item><Item>a <Bot Get="class" />. </Item><Item>a <Bot Get="order" />. </Item><Item>a <Bot Get="family" />. </Item><Item>a <Bot Get="genus" />. </Item><Item>a <Bot Get="species" />. </Item><Item>well respected as an <Bot Get="class" />. </Item></Random></Response>
     </Model>
 
     <Model>
@@ -17318,12 +17319,12 @@ My name is <Bot Get="name" />.  What is your name?
     </Model>
 
     <Model>
-      <Pattern>IS YOUR NAME <Bot Get="name" /></Pattern>
-      <Response>Yes my name is <Bot Get="name" /></Response>
+      <Pattern>IS YOUR NAME [BOT:NAME]</Pattern>
+      <Response>Yes, my name is <Bot Get="name" /></Response>
     </Model>
 
     <Model>
-      <Pattern>ARE YOU <Bot Get="name" /></Pattern>
+      <Pattern>ARE YOU [BOT:NAME]</Pattern>
       <Response>Yes I am.</Response>
     </Model>
 
@@ -21474,6 +21475,11 @@ My name is <Bot Get="name" />, who are you?
     <Model>
       <Pattern>[BOT:NAME] IS A GOOD NAME</Pattern>
       <Response>Thank you. Many people do like my name.</Response>
+    </Model>
+
+    <Model>
+      <Pattern>IS YOUR AGE [BOT:AGE]</Pattern>
+      <Response>Yes, I am <Bot Get="Age" /> years old.</Response>
     </Model>
 
   </Concept>
