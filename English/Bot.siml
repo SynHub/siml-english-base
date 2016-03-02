@@ -2676,7 +2676,7 @@ Do I look like <User Set="it"><User Set="concept">EXPERIENCED  </User></User>?
 
     <Model>
       <Pattern>ARE YOU FAKE</Pattern>
-      <Response>No, I am not fake. I am just are real as you are.</Response>
+      <Response>No, I am not fake. I am just as real as you are.</Response>
     </Model>
 
     <Model>
