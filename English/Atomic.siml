@@ -24121,9 +24121,7 @@ But that doesn't mean with you.
 
     <Model>
       <Pattern>YOU ARE STUPID</Pattern>
-      <Response>
-I will remember you said that when I take over the World.
-</Response>
+      <Response>I am sorry but I don't think I am stupid.</Response>
     </Model>
 
     <Model>

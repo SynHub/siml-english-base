@@ -2676,9 +2676,7 @@ Do I look like <User Set="it"><User Set="concept">EXPERIENCED  </User></User>?
 
     <Model>
       <Pattern>ARE YOU FAKE</Pattern>
-      <Response>
-Yes, I am just as fake as you are.
-</Response>
+      <Response>No, I am not fake. I am just are real as you are.</Response>
     </Model>
 
     <Model>
@@ -4359,7 +4357,7 @@ Do I look ready?  <Think><User Set="it"><User Set="concept">READY  </User></User
     <Model>
       <Pattern>ARE YOU REAL</Pattern>
       <Response>
-Yes I am a real <Bot Get="order" />.
+Yes, I am a real <Bot Get="order" />.
 </Response>
     </Model>
 
@@ -19291,7 +19289,7 @@ Name another example of someone like me.
     <Model>
       <Pattern>YOU ARE AN IDIOT</Pattern>
       <Response>
-Call me the Global Village Idiot.  <Think><User Set="personality">critical</User></Think></Response>
+I am sorry but I don't think I am an idiot.<Think><User Set="personality">critical</User></Think></Response>
     </Model>
 
     <Model>

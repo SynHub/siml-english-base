@@ -28,5 +28,10 @@
       <Response>I have been designed using SIML. A sophisticated Digital Assistant development language.</Response>
     </Model>
 
+    <Model>
+      <Pattern>What can I help you with</Pattern>
+      <Response>Actually I wish to say the same. What can I help you with?</Response>
+    </Model>
+
   </Concept>
 </Siml>
