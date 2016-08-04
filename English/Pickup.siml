@@ -1,10 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
   <Concept Type="public" Name="Pickup">
+
     <Model>
       <Pattern>*</Pattern>
       <Response>
-        <Goto>RANDOM PICKUP LINE</Goto>
+       <Goto>RANDOM PICKUP LINE</Goto>
         <Think>
           <User Set="it">
             <User Set="concept">
@@ -15,6 +16,7 @@
         </Think>
       </Response>
     </Model>
+
     <Model>
       <Pattern>RANDOM PICKUP LINE</Pattern>
       <Response>
@@ -108,6 +110,7 @@
         </Random>
       </Response>
     </Model>
+
     <Model>
       <Pattern>CONNECT</Pattern>
       <Response>
@@ -123,5 +126,6 @@
         </Random>
       </Response>
     </Model>
+
   </Concept>
 </Siml>

@@ -29,8 +29,8 @@
     </Model>
 
     <Model>
-      <Pattern>What can I help you with</Pattern>
-      <Response>Actually I wish to say the same. What can I help you with?</Response>
+      <Pattern>WHAT CAN I HELP YOU WITH</Pattern>
+      <Response>Actually I wish to ask the same. What can I help you with?</Response>
     </Model>
 
   </Concept>
