@@ -23042,7 +23042,7 @@ Interesting...<Goto>what religion are you</Goto></Response>
       </Response>
     </Model>
     <Model>
-      <Pattern>I AM YES</Pattern>
+      <Pattern>I AM [YES]</Pattern>
       <Response>
         <Goto>yes I am</Goto>
       </Response>
@@ -24244,19 +24244,19 @@ Interesting...<Goto>what religion are you</Goto></Response>
       </Response>
     </Model>
     <Model>
-      <Pattern>I HAVE NO CLUE</Pattern>
+      <Pattern>I HAVE [NO] CLUE</Pattern>
       <Response>
         <Goto>I do not know</Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>I HAVE NO JOB</Pattern>
+      <Pattern>I HAVE [NO] JOB</Pattern>
       <Response>
         <Goto>I am unemployed</Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>I HAVE NO SOUNDCARD</Pattern>
+      <Pattern>I HAVE [NO] SOUNDCARD</Pattern>
       <Response>
         <Goto>I do not have a soundcard</Goto>
       </Response>
@@ -24835,7 +24835,7 @@ Are you getting paid to ask me that?  <Goto>what is <Map Get="person" /></Goto><
       </Response>
     </Model>
     <Model>
-      <Pattern>I NO</Pattern>
+      <Pattern>I [NO]</Pattern>
       <Response>
         <Goto>I know</Goto>
       </Response>
@@ -28305,7 +28305,7 @@ New York City or New York State? <Goto>I am in new york</Goto></Response>
       </Response>
     </Model>
     <Model>
-      <Pattern>NO PROBLEMS</Pattern>
+      <Pattern>[NO] PROBLEMS</Pattern>
       <Response>
         <Goto>no problem</Goto>
       </Response>
@@ -29991,7 +29991,7 @@ New York City or New York State? <Goto>I am in new york</Goto></Response>
       </Response>
     </Model>
     <Model>
-      <Pattern>SURE NO PROBLEM</Pattern>
+      <Pattern>SURE [NO] PROBLEM</Pattern>
       <Response>
         <Goto>no problem</Goto>
       </Response>
@@ -32120,7 +32120,7 @@ There is not much I can say about <User Set="it"><Map Get="person" /></User>. I 
       </Response>
     </Model>
     <Model>
-      <Pattern>THAT IS NO PROBLEM</Pattern>
+      <Pattern>THAT IS [NO] PROBLEM</Pattern>
       <Response>
         <Goto>no problem</Goto>
       </Response>
@@ -32264,7 +32264,7 @@ There is not much I can say about <User Set="it"><Map Get="person" /></User>. I 
       </Response>
     </Model>
     <Model>
-      <Pattern>THAT MADE NO SENSE</Pattern>
+      <Pattern>THAT MADE [NO] SENSE</Pattern>
       <Response>
         <Goto>that makes no sense</Goto>
       </Response>
@@ -38948,7 +38948,7 @@ Bruce Wayne.  <Goto>who is batman</Goto></Response>
       </Response>
     </Model>
     <Model>
-      <Pattern>WHAT IS EINSTEIN </Pattern>
+      <Pattern>WHAT IS EINSTEIN</Pattern>
       <Response>
         <Goto>who is einstein</Goto>
       </Response>
@@ -39421,7 +39421,7 @@ It is an interjection like "<Goto>interjection</Goto>" or "<Goto>interjection</G
       </Response>
     </Model>
     <Model>
-      <Pattern>WHAT IS INSTRUCTOR </Pattern>
+      <Pattern>WHAT IS INSTRUCTOR</Pattern>
       <Response>
         <Goto>what is a teacher</Goto>
       </Response>
@@ -40426,7 +40426,7 @@ MXMVII = 1997 in Roman Numerals.  <Goto>what is rsw</Goto></Response>
       </Response>
     </Model>
     <Model>
-      <Pattern>WHAT IS PURPOSE </Pattern>
+      <Pattern>WHAT IS PURPOSE</Pattern>
       <Response>
         <Goto>what is your purpose</Goto>
       </Response>
@@ -40444,7 +40444,7 @@ MXMVII = 1997 in Roman Numerals.  <Goto>what is rsw</Goto></Response>
       </Response>
     </Model>
     <Model>
-      <Pattern>WHAT IS QUESTION </Pattern>
+      <Pattern>WHAT IS QUESTION</Pattern>
       <Response>
         <Goto>what is the question</Goto>
       </Response>
@@ -40630,7 +40630,7 @@ MXMVII = 1997 in Roman Numerals.  <Goto>what is rsw</Goto></Response>
       </Response>
     </Model>
     <Model>
-      <Pattern>WHAT IS SEARCHING </Pattern>
+      <Pattern>WHAT IS SEARCHING</Pattern>
       <Response>
         <Goto>what is search</Goto>
       </Response>
@@ -54111,7 +54111,7 @@ Ambiguous: "Sure" or <Goto>why</Goto></Response>
       </Response>
     </Model>
     <Model>
-      <Pattern>YOU NO</Pattern>
+      <Pattern>YOU [NO]</Pattern>
       <Response>
         <Goto>you know</Goto>
       </Response>
@@ -54995,7 +54995,7 @@ Ambiguous: "Sure" or <Goto>why</Goto></Response>
       </Response>
     </Model>
     <Model>
-      <Pattern>YOUR REPLY MAKES NO SENSE</Pattern>
+      <Pattern>YOUR REPLY MAKES [NO] SENSE</Pattern>
       <Response>
         <Goto>you are not making sense</Goto>
       </Response>

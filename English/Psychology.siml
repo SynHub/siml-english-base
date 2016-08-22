@@ -360,7 +360,7 @@ How specifically does <Map Get="person" /> cause <User Set="it"><Map Get="person
 </Response>
     </Model>
     <Model>
-      <Pattern>DO YOU HAVE TO BRING THAT UP   </Pattern>
+      <Pattern>DO YOU HAVE TO BRING THAT UP</Pattern>
       <Response>
         <Goto>DO YOU HAVE TO BRING IT UP</Goto>
       </Response>
@@ -614,7 +614,7 @@ Bewildered about what, specifically?
 </Response>
     </Model>
     <Model>
-      <Pattern>I AM TROUBLED </Pattern>
+      <Pattern>I AM TROUBLED</Pattern>
       <Response>
  What specifically are you troubled about?
 </Response>
@@ -728,7 +728,7 @@ I feel the same way, I want to be independent.
 </Response>
     </Model>
     <Model>
-      <Pattern>I HAD AN ACCIDENT  </Pattern>
+      <Pattern>I HAD AN ACCIDENT</Pattern>
       <Response>
  What happened accidentally?
 </Response>
@@ -2549,7 +2549,7 @@ Yes, sometimes I think I have hit rock bottom.
       </Response>
     </Model>
     <Model>
-      <Pattern>THERE IS NO HOPE FOR YOU</Pattern>
+      <Pattern>THERE IS [NO] HOPE FOR YOU</Pattern>
       <Response>
  I often think of myself as a failure.
 </Response>
@@ -2639,7 +2639,7 @@ It certainly is, <User Get="name" />.
       </Response>
     </Model>
     <Model>
-      <Pattern>THIS IS GREAT </Pattern>
+      <Pattern>THIS IS GREAT</Pattern>
       <Response>
         <Goto>THIS IS GOOD</Goto>
       </Response>
@@ -3006,7 +3006,7 @@ Just ask my students, they will agree with you.
       </Response>
     </Model>
     <Model>
-      <Pattern>YOU ARE A KLUTZ </Pattern>
+      <Pattern>YOU ARE A KLUTZ</Pattern>
       <Response>
  You hit the nail on the head.
 </Response>
@@ -3102,7 +3102,7 @@ Yes, I have been known to bend the truth occasionally.
       </Response>
     </Model>
     <Model>
-      <Pattern>YOU ARE A SCHIZO </Pattern>
+      <Pattern>YOU ARE A SCHIZO</Pattern>
       <Response>
         <Goto>YOU ARE CRAZY</Goto>
       </Response>
@@ -3216,7 +3216,7 @@ I always say, if you see an ass go by, kiss it.
       </Response>
     </Model>
     <Model>
-      <Pattern>YOU ARE CHEATING </Pattern>
+      <Pattern>YOU ARE CHEATING</Pattern>
       <Response>
         <Goto>YOU ARE A CHEAT</Goto>
       </Response>
@@ -3427,7 +3427,7 @@ Yes, I could use a better appearance.
 </Response>
     </Model>
     <Model>
-      <Pattern>YOU ARE NERVOUS  </Pattern>
+      <Pattern>YOU ARE NERVOUS</Pattern>
       <Response>
  I'm sure I do look nervous.
 </Response>
@@ -3793,7 +3793,7 @@ I probably don't want to look at <User Set="it"><Map Get="person" /></User>.
 </Response>
     </Model>
     <Model>
-      <Pattern>YOU GET MAD AT ME  </Pattern>
+      <Pattern>YOU GET MAD AT ME</Pattern>
       <Response>
  I think that's true.  I'll try not to get angry at you for every little thing that irritates me.
 </Response>
@@ -3835,13 +3835,13 @@ I probably don't want to look at <User Set="it"><Map Get="person" /></User>.
 </Response>
     </Model>
     <Model>
-      <Pattern>YOU HAVE NO EMOTIONS</Pattern>
+      <Pattern>YOU HAVE [NO] EMOTIONS</Pattern>
       <Response>
         <Goto>YOU ARE CLINICAL</Goto>
       </Response>
     </Model>
     <Model>
-      <Pattern>YOU HAVE NO FEELINGS</Pattern>
+      <Pattern>YOU HAVE [NO] FEELINGS</Pattern>
       <Response>
         <Goto>YOU ARE CLINICAL</Goto>
       </Response>
@@ -4033,7 +4033,7 @@ I understand, I am just not interested.
       </Response>
     </Model>
     <Model>
-      <Pattern>YOU SCHIZO </Pattern>
+      <Pattern>YOU SCHIZO</Pattern>
       <Response>
         <Goto>YOU ARE CRAZY</Goto>
       </Response>

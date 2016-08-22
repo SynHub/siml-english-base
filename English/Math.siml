@@ -9,7 +9,6 @@
       <Response>
            The average is <Math>(<Match />+<Match Index="2" />)/2</Math></Response>
     </Model>
-
     <Model>
       <Pattern>
         <Item>ADD * AND *</Item>
@@ -19,7 +18,6 @@
       <Response>
             The answer is <Math><Match />+<Match Index="2" /></Math></Response>
     </Model>
-
     <Model>
       <Pattern>
         <Item>SUBTRACT * AND *</Item>
@@ -27,16 +25,13 @@
       </Pattern>
       <Response>The answer is <Math><Match />-<Match Index="2" /></Math></Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE *</Pattern>
       <Response>The answer is <Math><Match /></Math></Response>
     </Model>
-
     <Model>
       <Pattern>ADD * AND * AND THEN SUBTRACT * FROM IT</Pattern>
       <Response>The answer might be <Math>(<Match />+<Match Index="2" />)-<Match Index="3" /></Math></Response>
     </Model>
-
   </Concept>
 </Siml>

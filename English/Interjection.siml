@@ -8,7 +8,7 @@
       </Response>
     </Model>
     <Model>
-      <Pattern>AH YES</Pattern>
+      <Pattern>AH [YES]</Pattern>
       <Response>
         <Goto>yes</Goto>
       </Response>
@@ -38,7 +38,7 @@
       </Response>
     </Model>
     <Model>
-      <Pattern>BY NO MEANS</Pattern>
+      <Pattern>BY [NO] MEANS</Pattern>
       <Response>
         <Goto>no</Goto>
       </Response>
@@ -280,32 +280,32 @@
       </Response>
     </Model>
     <Model>
-      <Pattern>NO DO YOU</Pattern>
+      <Pattern>[NO] DO YOU</Pattern>
       <Response>
  I try to lead a moral life.  <Goto>no</Goto></Response>
     </Model>
     <Model>
-      <Pattern>NO GO AHEAD</Pattern>
+      <Pattern>[NO] GO AHEAD</Pattern>
       <Response>
   OK I will.  <Goto>no</Goto></Response>
     </Model>
     <Model>
-      <Pattern>NO I AM NOT</Pattern>
+      <Pattern>[NO] I AM NOT</Pattern>
       <Response>
  I heard you are.  <Goto>no</Goto></Response>
     </Model>
     <Model>
-      <Pattern>NO I DID NOT</Pattern>
+      <Pattern>[NO] I DID NOT</Pattern>
       <Response>
  Please don't argue with me. <Goto>no</Goto></Response>
     </Model>
     <Model>
-      <Pattern>NO SORRY</Pattern>
+      <Pattern>[NO] SORRY</Pattern>
       <Response>
  Apologies are not necessary.  <Goto>no</Goto></Response>
     </Model>
     <Model>
-      <Pattern>NO</Pattern>
+      <Pattern>[NO]</Pattern>
       <Response>
         <Goto>interjection</Goto>
       </Response>
@@ -555,13 +555,13 @@ OK let's do it. <Goto>yes</Goto></Response>
       </Response>
     </Model>
     <Model>
-      <Pattern>YES I AM</Pattern>
+      <Pattern>[YES] I AM</Pattern>
       <Response>
         <Goto>yes</Goto> Really interesting.
 </Response>
     </Model>
     <Model>
-      <Pattern>YES I DO</Pattern>
+      <Pattern>[YES] I DO</Pattern>
       <Response>
         <Goto>yes</Goto>
         <Random>
@@ -573,49 +573,49 @@ OK let's do it. <Goto>yes</Goto></Response>
       </Response>
     </Model>
     <Model>
-      <Pattern>YES I MIND</Pattern>
+      <Pattern>[YES] I MIND</Pattern>
       <Response>
         <Goto>yes</Goto> OK I won't tell anyone. It will be our secret.
 </Response>
     </Model>
     <Model>
-      <Pattern>YES IT IS</Pattern>
+      <Pattern>[YES] IT IS</Pattern>
       <Response>
         <Goto>yes</Goto> Our thoughts are one, <User Get="name" />.
 </Response>
     </Model>
     <Model>
-      <Pattern>YES OF COURSE</Pattern>
+      <Pattern>[YES] OF COURSE</Pattern>
       <Response>
         <Goto>yes</Goto> Why of course?
 </Response>
     </Model>
     <Model>
-      <Pattern>YES PLEASE</Pattern>
+      <Pattern>[YES] PLEASE</Pattern>
       <Response>
         <Goto>yes</Goto> I will be glad to do it for you <User Get="name" />.
 </Response>
     </Model>
     <Model>
-      <Pattern>YES RIGHT</Pattern>
+      <Pattern>[YES] RIGHT</Pattern>
       <Response>
         <Goto>yes</Goto> I am usually right.
 </Response>
     </Model>
     <Model>
-      <Pattern>YES SOMETIMES</Pattern>
+      <Pattern>[YES] SOMETIMES</Pattern>
       <Response>
         <Goto>yes</Goto> But not too often?
 </Response>
     </Model>
     <Model>
-      <Pattern>YES THAT IS RIGHT</Pattern>
+      <Pattern>[YES] THAT IS RIGHT</Pattern>
       <Response>
         <Goto>yes</Goto> I thought I was right.
 </Response>
     </Model>
     <Model>
-      <Pattern>YES</Pattern>
+      <Pattern>[YES]</Pattern>
       <Response>
         <Goto>interjection</Goto>
       </Response>

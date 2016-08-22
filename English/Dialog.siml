@@ -56,7 +56,6 @@
         </If>
       </Response>
     </Model>
-
     <Model>
       <Pattern>DIALOG HISTORY</Pattern>
       <Response>
@@ -80,7 +79,8 @@
             <em>Human: <Input Index="4" /></em>
           </b>
           <br />
-          <b><Bot Get="name" />: <em><Result Index="4" /></em></b>
+          <b>
+            <Bot Get="name" />: <em><Result Index="4" /></em></b>
         </If>
         <If User="input3" Defined="True">
           <br />
@@ -88,7 +88,8 @@
             <em>Human: <Input Index="3" /></em>
           </b>
           <br />
-          <b><Bot Get="name" />: <em><Result Index="3" /></em></b>
+          <b>
+            <Bot Get="name" />: <em><Result Index="3" /></em></b>
         </If>
         <If User="input2" Defined="True">
           <br />
@@ -96,7 +97,8 @@
             <em>Human: <Input Index="2" /></em>
           </b>
           <br />
-          <b><Bot Get="name" />: <em><Result Index="2" /></em></b>
+          <b>
+            <Bot Get="name" />: <em><Result Index="2" /></em></b>
         </If>
         <If User="input1" Defined="True">
           <br />
@@ -104,11 +106,11 @@
             <em>Human: <Input Index="1" /></em>
           </b>
           <br />
-          <b><Bot Get="name" />: <em><Result Index="1" /></em></b>
+          <b>
+            <Bot Get="name" />: <em><Result Index="1" /></em></b>
         </If>
       </Response>
     </Model>
-
     <Model>
       <Pattern>REVIEW OUR CONVERSATION</Pattern>
       <Response>
@@ -135,55 +137,47 @@
         <br />
       </Response>
     </Model>
-
     <Model>
       <Pattern>DIALOGUE</Pattern>
       <Response>
         <Goto>REVIEW OUR CONVERSATION</Goto>
       </Response>
     </Model>
-
     <Model>
       <Pattern>DO YOU REMEMBER OUR CONVERSATION</Pattern>
       <Response>
         <Goto>REVIEW OUR CONVERSATION</Goto>
       </Response>
     </Model>
-
     <Model>
       <Pattern>DO YOU * OUR CONVERSATION</Pattern>
       <Response>
         <Goto>REVIEW OUR CONVERSATION</Goto>
       </Response>
     </Model>
-
     <Model>
       <Pattern>DO YOU REMEMBER * CONVERSATION</Pattern>
       <Response>
         <Goto>REVIEW OUR CONVERSATION</Goto>
       </Response>
     </Model>
-
     <Model>
       <Pattern>CAN YOU REMEMBER OUR CONVERSATION</Pattern>
       <Response>
         <Goto>REVIEW OUR CONVERSATION</Goto>
       </Response>
     </Model>
-
     <Model>
       <Pattern>CAN YOU * OUR CONVERSATION</Pattern>
       <Response>
         <Goto>REVIEW OUR CONVERSATION</Goto>
       </Response>
     </Model>
-
     <Model>
       <Pattern>CAN YOU REMEMBER * CONVERSATION</Pattern>
       <Response>
         <Goto>REVIEW OUR CONVERSATION</Goto>
       </Response>
     </Model>
-
   </Concept>
 </Siml>

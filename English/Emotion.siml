@@ -528,7 +528,7 @@ Try not to be too scared.
 Humans are highly emotional.  <Think><User Set="has">EMOTIONS</User></Think></Response>
     </Model>
     <Model>
-      <Pattern>NO IT IS NOT</Pattern>
+      <Pattern>[NO] IT IS NOT</Pattern>
       <Previous>THAT IS A HYPOTHETICAL QUESTION</Previous>
       <Response>
 To a <Bot Get="etype" /> type all such material questions are hypothetical.

@@ -609,7 +609,7 @@ Do you think I am some kind of world weather <Bot Get="genus" />? <Goto>what is 
       </Response>
     </Model>
     <Model>
-      <Pattern>YES I AGREE</Pattern>
+      <Pattern>[YES] I AGREE</Pattern>
       <Response>
         <Goto>yes</Goto>
         <Goto>I <Match /></Goto>

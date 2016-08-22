@@ -9,7 +9,6 @@
         </Think>0
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 0 PLUS 1</Pattern>
       <Response>
@@ -18,7 +17,6 @@
         </Think>1
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 0 PLUS 2</Pattern>
       <Response>
@@ -27,7 +25,6 @@
         </Think>2
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 0 PLUS 3</Pattern>
       <Response>
@@ -36,7 +33,6 @@
         </Think>3
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 0 PLUS 4</Pattern>
       <Response>
@@ -45,7 +41,6 @@
         </Think>4
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 0 PLUS 5</Pattern>
       <Response>
@@ -54,7 +49,6 @@
         </Think>5
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 0 PLUS 6</Pattern>
       <Response>
@@ -63,7 +57,6 @@
         </Think>6
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 0 PLUS 7</Pattern>
       <Response>
@@ -72,7 +65,6 @@
         </Think>7
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 0 PLUS 8</Pattern>
       <Response>
@@ -81,7 +73,6 @@
         </Think>8
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 0 PLUS 9</Pattern>
       <Response>
@@ -90,7 +81,6 @@
         </Think>9
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 1 PLUS 0</Pattern>
       <Response>
@@ -99,7 +89,6 @@
         </Think>1
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 1 PLUS 1</Pattern>
       <Response>
@@ -108,7 +97,6 @@
         </Think>2
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 1 PLUS 2</Pattern>
       <Response>
@@ -117,7 +105,6 @@
         </Think>3
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 1 PLUS 3</Pattern>
       <Response>
@@ -126,7 +113,6 @@
         </Think>4
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 1 PLUS 4</Pattern>
       <Response>
@@ -135,7 +121,6 @@
         </Think>5
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 1 PLUS 5</Pattern>
       <Response>
@@ -144,7 +129,6 @@
         </Think>6
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 1 PLUS 6</Pattern>
       <Response>
@@ -153,7 +137,6 @@
         </Think>7
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 1 PLUS 7</Pattern>
       <Response>
@@ -162,7 +145,6 @@
         </Think>8
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 1 PLUS 8</Pattern>
       <Response>
@@ -171,7 +153,6 @@
         </Think>9
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 1 PLUS 9</Pattern>
       <Response>
@@ -180,7 +161,6 @@
         </Think>0
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 2 PLUS 0</Pattern>
       <Response>
@@ -189,7 +169,6 @@
         </Think>2
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 2 PLUS 1</Pattern>
       <Response>
@@ -198,7 +177,6 @@
         </Think>3
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 2 PLUS 2</Pattern>
       <Response>
@@ -207,7 +185,6 @@
         </Think>4
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 2 PLUS 3</Pattern>
       <Response>
@@ -216,7 +193,6 @@
         </Think>5
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 2 PLUS 4</Pattern>
       <Response>
@@ -225,7 +201,6 @@
         </Think>6
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 2 PLUS 5</Pattern>
       <Response>
@@ -234,7 +209,6 @@
         </Think>7
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 2 PLUS 6</Pattern>
       <Response>
@@ -243,7 +217,6 @@
         </Think>8
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 2 PLUS 7</Pattern>
       <Response>
@@ -252,7 +225,6 @@
         </Think>9
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 2 PLUS 8</Pattern>
       <Response>
@@ -261,7 +233,6 @@
         </Think>0
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 2 PLUS 9</Pattern>
       <Response>
@@ -270,7 +241,6 @@
         </Think>1
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 3 PLUS 0</Pattern>
       <Response>
@@ -279,7 +249,6 @@
         </Think>3
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 3 PLUS 1</Pattern>
       <Response>
@@ -288,7 +257,6 @@
         </Think>4
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 3 PLUS 2</Pattern>
       <Response>
@@ -297,7 +265,6 @@
         </Think>5
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 3 PLUS 3</Pattern>
       <Response>
@@ -306,7 +273,6 @@
         </Think>6
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 3 PLUS 4</Pattern>
       <Response>
@@ -315,7 +281,6 @@
         </Think>7
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 3 PLUS 5</Pattern>
       <Response>
@@ -324,7 +289,6 @@
         </Think>8
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 3 PLUS 6</Pattern>
       <Response>
@@ -333,7 +297,6 @@
         </Think>9
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 3 PLUS 7</Pattern>
       <Response>
@@ -342,7 +305,6 @@
         </Think>0
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 3 PLUS 8</Pattern>
       <Response>
@@ -351,7 +313,6 @@
         </Think>1
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 3 PLUS 9</Pattern>
       <Response>
@@ -360,7 +321,6 @@
         </Think>2
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 4 PLUS 0</Pattern>
       <Response>
@@ -369,7 +329,6 @@
         </Think>4
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 4 PLUS 1</Pattern>
       <Response>
@@ -378,7 +337,6 @@
         </Think>5
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 4 PLUS 2</Pattern>
       <Response>
@@ -387,7 +345,6 @@
         </Think>6
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 4 PLUS 3</Pattern>
       <Response>
@@ -396,7 +353,6 @@
         </Think>7
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 4 PLUS 4</Pattern>
       <Response>
@@ -405,7 +361,6 @@
         </Think>8
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 4 PLUS 5</Pattern>
       <Response>
@@ -414,7 +369,6 @@
         </Think>9
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 4 PLUS 6</Pattern>
       <Response>
@@ -423,7 +377,6 @@
         </Think>0
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 4 PLUS 7</Pattern>
       <Response>
@@ -432,7 +385,6 @@
         </Think>1
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 4 PLUS 8</Pattern>
       <Response>
@@ -441,7 +393,6 @@
         </Think>2
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 4 PLUS 9</Pattern>
       <Response>
@@ -450,7 +401,6 @@
         </Think>3
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 5 PLUS 0</Pattern>
       <Response>
@@ -459,7 +409,6 @@
         </Think>5
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 5 PLUS 1</Pattern>
       <Response>
@@ -468,7 +417,6 @@
         </Think>6
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 5 PLUS 2</Pattern>
       <Response>
@@ -477,7 +425,6 @@
         </Think>7
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 5 PLUS 3</Pattern>
       <Response>
@@ -486,7 +433,6 @@
         </Think>8
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 5 PLUS 4</Pattern>
       <Response>
@@ -495,7 +441,6 @@
         </Think>9
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 5 PLUS 5</Pattern>
       <Response>
@@ -504,7 +449,6 @@
         </Think>0
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 5 PLUS 6</Pattern>
       <Response>
@@ -513,7 +457,6 @@
         </Think>1
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 5 PLUS 7</Pattern>
       <Response>
@@ -522,7 +465,6 @@
         </Think>2
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 5 PLUS 8</Pattern>
       <Response>
@@ -531,7 +473,6 @@
         </Think>3
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 5 PLUS 9</Pattern>
       <Response>
@@ -540,7 +481,6 @@
         </Think>4
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 6 PLUS 0</Pattern>
       <Response>
@@ -549,7 +489,6 @@
         </Think>6
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 6 PLUS 1</Pattern>
       <Response>
@@ -558,7 +497,6 @@
         </Think>7
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 6 PLUS 2</Pattern>
       <Response>
@@ -567,7 +505,6 @@
         </Think>8
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 6 PLUS 3</Pattern>
       <Response>
@@ -576,7 +513,6 @@
         </Think>9
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 6 PLUS 4</Pattern>
       <Response>
@@ -585,7 +521,6 @@
         </Think>0
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 6 PLUS 5</Pattern>
       <Response>
@@ -594,7 +529,6 @@
         </Think>1
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 6 PLUS 6</Pattern>
       <Response>
@@ -603,7 +537,6 @@
         </Think>2
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 6 PLUS 7</Pattern>
       <Response>
@@ -612,7 +545,6 @@
         </Think>3
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 6 PLUS 8</Pattern>
       <Response>
@@ -621,7 +553,6 @@
         </Think>4
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 6 PLUS 9</Pattern>
       <Response>
@@ -630,7 +561,6 @@
         </Think>5
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 7 PLUS 0</Pattern>
       <Response>
@@ -639,7 +569,6 @@
         </Think>7
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 7 PLUS 1</Pattern>
       <Response>
@@ -648,7 +577,6 @@
         </Think>8
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 7 PLUS 2</Pattern>
       <Response>
@@ -657,7 +585,6 @@
         </Think>9
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 7 PLUS 3</Pattern>
       <Response>
@@ -666,7 +593,6 @@
         </Think>0
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 7 PLUS 4</Pattern>
       <Response>
@@ -675,7 +601,6 @@
         </Think>1
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 7 PLUS 5</Pattern>
       <Response>
@@ -684,7 +609,6 @@
         </Think>2
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 7 PLUS 6</Pattern>
       <Response>
@@ -693,7 +617,6 @@
         </Think>3
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 7 PLUS 7</Pattern>
       <Response>
@@ -702,7 +625,6 @@
         </Think>4
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 7 PLUS 8</Pattern>
       <Response>
@@ -711,7 +633,6 @@
         </Think>5
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 7 PLUS 9</Pattern>
       <Response>
@@ -720,7 +641,6 @@
         </Think>6
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 8 PLUS 0</Pattern>
       <Response>
@@ -729,7 +649,6 @@
         </Think>8
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 8 PLUS 1</Pattern>
       <Response>
@@ -738,7 +657,6 @@
         </Think>9
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 8 PLUS 2</Pattern>
       <Response>
@@ -747,7 +665,6 @@
         </Think>0
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 8 PLUS 3</Pattern>
       <Response>
@@ -756,7 +673,6 @@
         </Think>1
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 8 PLUS 4</Pattern>
       <Response>
@@ -765,7 +681,6 @@
         </Think>2
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 8 PLUS 5</Pattern>
       <Response>
@@ -774,7 +689,6 @@
         </Think>3
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 8 PLUS 6</Pattern>
       <Response>
@@ -783,7 +697,6 @@
         </Think>4
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 8 PLUS 7</Pattern>
       <Response>
@@ -792,7 +705,6 @@
         </Think>5
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 8 PLUS 8</Pattern>
       <Response>
@@ -801,7 +713,6 @@
         </Think>6
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 8 PLUS 9</Pattern>
       <Response>
@@ -810,7 +721,6 @@
         </Think>7
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 9 PLUS 0</Pattern>
       <Response>
@@ -819,7 +729,6 @@
         </Think>9
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 9 PLUS 1</Pattern>
       <Response>
@@ -828,7 +737,6 @@
         </Think>0
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 9 PLUS 2</Pattern>
       <Response>
@@ -837,7 +745,6 @@
         </Think>1
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 9 PLUS 3</Pattern>
       <Response>
@@ -846,7 +753,6 @@
         </Think>2
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 9 PLUS 4</Pattern>
       <Response>
@@ -855,7 +761,6 @@
         </Think>3
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 9 PLUS 5</Pattern>
       <Response>
@@ -864,7 +769,6 @@
         </Think>4
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 9 PLUS 6</Pattern>
       <Response>
@@ -873,7 +777,6 @@
         </Think>5
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 9 PLUS 7</Pattern>
       <Response>
@@ -882,7 +785,6 @@
         </Think>6
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 9 PLUS 8</Pattern>
       <Response>
@@ -891,7 +793,6 @@
         </Think>7
 </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE 9 PLUS 9</Pattern>
       <Response>
@@ -900,21 +801,18 @@
         </Think>8
 </Response>
     </Model>
-
     <Model>
       <Pattern>IMPLODE * * </Pattern>
       <Response>
         <Goto>IMPLODE <Match /><Match Index="2" /></Goto>
       </Response>
     </Model>
-
     <Model>
       <Pattern>IMPLODE * </Pattern>
       <Response>
         <Match />
       </Response>
     </Model>
-
     <Model>
       <Pattern>IMPLODED ADD * PLUS *</Pattern>
       <Response>
@@ -944,7 +842,6 @@
         </Switch>
       </Response>
     </Model>
-
     <Model>
       <Pattern>ADD * PLUS *</Pattern>
       <Response>
@@ -972,7 +869,6 @@
         </Switch>
       </Response>
     </Model>
-
     <Model>
       <Pattern>REVERSE * * </Pattern>
       <Response>
@@ -980,14 +876,12 @@
         <Match />
       </Response>
     </Model>
-
     <Model>
       <Pattern>REVERSE * </Pattern>
       <Response>
         <Match />
       </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE * PLUS * </Pattern>
       <Response>
@@ -996,7 +890,6 @@
         </Think>
       </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE * * PLUS * * </Pattern>
       <Response>
@@ -1011,7 +904,6 @@
         </Switch>
       </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE * * PLUS * </Pattern>
       <Response>
@@ -1029,7 +921,6 @@
         </Switch>
       </Response>
     </Model>
-
     <Model>
       <Pattern>CALCULATE * PLUS * *</Pattern>
       <Response>
@@ -1047,6 +938,5 @@
         </Switch>
       </Response>
     </Model>
-
   </Concept>
 </Siml>

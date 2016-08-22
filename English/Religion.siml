@@ -1006,7 +1006,7 @@ Is <User Set="it"><User Set="concept"><Map Get="person" /></User></User> a very 
       </Response>
     </Model>
     <Model>
-      <Pattern>NO</Pattern>
+      <Pattern>[NO]</Pattern>
       <Previous>HE IS MASTER OF THE UNIVERSE</Previous>
       <Response>
 What does God mean to you?
@@ -1105,7 +1105,7 @@ New Testament or Old?
 </Response>
     </Model>
     <Model>
-      <Pattern>THERE IS NO GOD</Pattern>
+      <Pattern>THERE IS [NO] GOD</Pattern>
       <Response>
 How can you be so sure?
 </Response>
@@ -1750,7 +1750,7 @@ God has designed the world according to his own plan.
 </Response>
     </Model>
     <Model>
-      <Pattern>YES</Pattern>
+      <Pattern>[YES]</Pattern>
       <Previous>DO YOU MEAN HIM</Previous>
       <Response>
 Praise God.

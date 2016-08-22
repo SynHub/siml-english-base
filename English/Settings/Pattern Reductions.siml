@@ -890,7 +890,6 @@
         <GotoMatch />
       </Response>
     </Model>
-
     <Model>
       <Pattern>
         <Item>_  CROSSLY *</Item>
@@ -1327,6 +1326,5 @@
           <Match /> <Match Index="2" /></Goto>
       </Response>
     </Model>
-
   </Concept>
 </Siml>
