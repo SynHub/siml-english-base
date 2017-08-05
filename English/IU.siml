@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
-  <Concept Type="public" Name="IU">
+  <Concept Name="IU">
+    
     <Model>
       <Pattern>I *</Pattern>
       <Response>
@@ -14,6 +15,7 @@
           <Item>I haven't heard anything like that before</Item>
         </Random>.  <Think><Goto>PUSH <Map Get="person">YOU <Match /></Map></Goto></Think></Response>
     </Model>
+    
     <Model>
       <Pattern>YOU *</Pattern>
       <Response>
@@ -26,5 +28,6 @@
           <Item>I haven't heard anything like that before</Item>
         </Random>.  <Think><Goto>PUSH <Map Get="person">YOU <Match /></Map></Goto></Think></Response>
     </Model>
+    
   </Concept>
 </Siml>

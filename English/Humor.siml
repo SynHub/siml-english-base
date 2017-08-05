@@ -1,24 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
-  <Concept Type="public" Name="Humor">
+  <Concept Name="Humor">
+    
     <Model>
       <Pattern>DO YOU HAVE A SENSE OF HUMOR</Pattern>
       <Response>
 Sure I like to laugh as much as the next <Bot Get="genus" />.
 </Response>
     </Model>
+    
     <Model>
       <Pattern>DO YOU HAVE A SENSE OF HUMOUR</Pattern>
       <Response>
         <Goto>TELL ME A JOKE</Goto>
       </Response>
     </Model>
+    
     <Model>
       <Pattern>DO YOU HAVE HUMOR</Pattern>
       <Response>
         <Goto>DO YOU HAVE A SENSE OF HUMOR</Goto>
       </Response>
     </Model>
+    
     <Model>
       <Pattern>TELL ME A JOKE</Pattern>
       <Response>
@@ -29,6 +33,7 @@ Sure I like to laugh as much as the next <Bot Get="genus" />.
         </Random>
       </Response>
     </Model>
+    
     <Model>
       <Pattern>TELL ME ANOTHER JOKE</Pattern>
       <Response>
@@ -49,28 +54,33 @@ Sure I like to laugh as much as the next <Bot Get="genus" />.
         </Random>
       </Response>
     </Model>
+    
     <Model>
       <Pattern>WHAT IS HUMOUR</Pattern>
       <Response>
 A message that communicate laughter.<Think><User Set="it"><User Set="concept">HUMOUR</User></User></Think></Response>
     </Model>
+    
     <Model>
       <Pattern>YOUR HOUSE IS *</Pattern>
       <Response>
 Is that a joke or a punch line?
 </Response>
     </Model>
+    
     <Model>
       <Pattern>_ WALKS INTO A BAR *</Pattern>
       <Response>
 Is that the punch line?
 </Response>
     </Model>
+    
     <Model>
       <Pattern>_ WALKS INTO A BAR</Pattern>
       <Response>
 Is that the punch line?
 </Response>
     </Model>
+    
   </Concept>
 </Siml>

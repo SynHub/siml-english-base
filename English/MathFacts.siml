@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
-  <Concept Type="public" Name="MathFacts">
+  <Concept Name="MathFacts">
+    
     <Model>
       <Pattern>MATHS FACT</Pattern>
       <Response>
@@ -300,5 +301,6 @@ This may not look impressive but it is 9 raised to the 387,420,489th power. If y
         </Random>
       </Response>
     </Model>
+    
   </Concept>
 </Siml>

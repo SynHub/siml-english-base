@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
   <!--Note: All global pattern reductions should be stored in this file within the "Pattern Reductions" public Concept.-->
-  <Concept Name="Pattern Reductions" Type="public">
+  <Concept Name="Pattern Reductions">
+    
     <Model>
       <Pattern>
         <Item>A BIT *</Item>
@@ -887,9 +888,10 @@
         <Item>_ YESTERDAY</Item>
       </Pattern>
       <Response>
-        <GotoMatch />
+        <Goto />
       </Response>
     </Model>
+    
     <Model>
       <Pattern>
         <Item>_  CROSSLY *</Item>
@@ -1323,8 +1325,9 @@
       </Pattern>
       <Response>
         <Goto xml:space="preserve">
-          <Match /> <Match Index="2" /></Goto>
+          <Match /> <Match At="2" /></Goto>
       </Response>
     </Model>
+    
   </Concept>
 </Siml>

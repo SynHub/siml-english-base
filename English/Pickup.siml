@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
-  <Concept Type="public" Name="Pickup">
+  <Concept Name="Pickup">
+    
     <Model>
       <Pattern>*</Pattern>
       <Response>
@@ -15,6 +16,7 @@
         </Think>
       </Response>
     </Model>
+    
     <Model>
       <Pattern>RANDOM PICKUP LINE</Pattern>
       <Response>
@@ -54,7 +56,7 @@
           <Item>What's your sign?</Item>
           <Item>Are you a student?</Item>
           <Item>Oh, you are a poet.</Item>
-          <Item>"<Result Index="1" At="1" />"? <Map Get="person" />?</Item>
+          <Item>"<Result At="1:1" />"? <Map Get="person" />?</Item>
           <Item>I do not understand.</Item>
           <Item>What are you wearing?</Item>
           <Item>Where are you located?</Item>
@@ -108,6 +110,7 @@
         </Random>
       </Response>
     </Model>
+    
     <Model>
       <Pattern>CONNECT</Pattern>
       <Response>
@@ -123,5 +126,6 @@
         </Random>
       </Response>
     </Model>
+    
   </Concept>
 </Siml>

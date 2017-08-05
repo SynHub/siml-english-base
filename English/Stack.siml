@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
-  <Concept Type="public" Name="Stack">
+  <Concept Name="Stack">
+    
     <Model>
       <Pattern>POP</Pattern>
       <Response>
@@ -9,6 +10,7 @@
         </User>
       </Response>
     </Model>
+    
     <Model>
       <Pattern>PUSH *</Pattern>
       <Response>
@@ -41,6 +43,7 @@
         <Match />
       </Response>
     </Model>
+    
     <Model>
       <Pattern>POPOM *</Pattern>
       <Response>
@@ -73,6 +76,7 @@
         </Think>
       </Response>
     </Model>
+    
     <Model>
       <Pattern>POPOM OM</Pattern>
       <Response>
@@ -81,12 +85,14 @@
         </User>
       </Response>
     </Model>
+    
     <Model>
       <Pattern>SHOW STACK</Pattern>
       <Response>
   top=" <User Get="top" />   " second=" <User Get="second" />   " third=" <User Get="third" />   " fourth=" <User Get="fourth" />   " fifth=" <User Get="fifth" />   " sixth=" <User Get="sixth" />   " seventh=" <User Get="seventh" />   " last=" <User Get="last" />   " 
 </Response>
     </Model>
+    
     <Model>
       <Pattern>RANDOM TOPIC</Pattern>
       <Response>
@@ -104,5 +110,6 @@
         </Random>
       </Response>
     </Model>
+    
   </Concept>
 </Siml>

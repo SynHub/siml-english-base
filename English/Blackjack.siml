@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
   <Concept Type="private" Name="BLACKJACK">
+    
     <Model>
       <Pattern>_</Pattern>
       <Previous>HOW MANY COINS DO YOU WISH TO BET 1 10</Previous>
@@ -53,8 +54,10 @@
         </Switch>
       </Response>
     </Model>
+    
   </Concept>
-  <Concept Type="public" Name="Blackjack">
+  <Concept Name="Blackjack">
+    
     <Model>
       <Pattern>BLACKJACK</Pattern>
       <Response>
@@ -64,6 +67,7 @@
         </Think>Welcome to my Blackjack game. You start the game with <User Get="coins" /> coins.<br /><br />HOUSE RULES:<br />- Dealer must draw to 17<br />- Blackjack pays 3 for 2 (rounded up to the nearest coin)<br />- Maximum bet is 10 coins<br />- The game ends when you either lose all your coins or break the bank by making 250 coins<br /><br />Good luck!<br /><br />Type D to deal.
 </Response>
     </Model>
+    
     <Model>
       <Pattern>D</Pattern>
       <Previous>TYPE D TO DEAL</Previous>
@@ -73,6 +77,7 @@
         </Think>Type "QUIT" to end the game.<br /><br />Bank: <User Get="coins" /><User Get="bankcoin" />.<br />How many coins do you wish to bet (1-10)?
 </Response>
     </Model>
+    
     <Model>
       <Pattern>BADBJBET</Pattern>
       <Response>
@@ -84,6 +89,7 @@
         <br />Bank: <User Get="coins" /><User Get="bankcoin" />.<br />How many coins do you wish to bet (1-10)?
 </Response>
     </Model>
+    
     <Model>
       <Pattern>BETOK</Pattern>
       <Response>
@@ -101,6 +107,7 @@
         </Switch>
       </Response>
     </Model>
+    
     <Model>
       <Pattern>BJCHECKBANK</Pattern>
       <Response>
@@ -167,6 +174,7 @@
         </Think>
       </Response>
     </Model>
+    
     <Model>
       <Pattern>BJCHECKDOUBLE</Pattern>
       <Response>
@@ -243,6 +251,7 @@
         </Think>
       </Response>
     </Model>
+    
     <Model>
       <Pattern>BJMAIN</Pattern>
       <Response>
@@ -309,6 +318,7 @@
         <Goto>XPLAYERCARD</Goto>
         <Goto>BJCHECKDOUBLE</Goto>DEALER: <User Get="dealerhand" /><br /><User Get="dealertot" /><User Get="dealerace" />.<br /><br />PLAYER: <User Get="playerhand" /><br /><User Get="playertot" /><User Get="playerace" />.<br /><br />Bank: <User Get="coins" /><User Get="bankcoin" />.<br />Bet: <User Get="plbet" /><User Get="playcoin" />.<br /><br /><User Get="gamemessage" /></Response>
     </Model>
+    
     <Model>
       <Pattern>D</Pattern>
       <Previous>TYPE H TO HIT S TO STAND OR D TO DOUBLE DOWN</Previous>
@@ -360,6 +370,7 @@
         </Switch>
       </Response>
     </Model>
+    
     <Model>
       <Pattern>H</Pattern>
       <Previous>TYPE H TO HIT *</Previous>
@@ -373,6 +384,7 @@
         </Switch>
       </Response>
     </Model>
+    
     <Model>
       <Pattern>XPLAYERCARD</Pattern>
       <Response>
@@ -465,6 +477,7 @@
         </Think>
       </Response>
     </Model>
+    
     <Model>
       <Pattern>XBLACKP1</Pattern>
       <Response>
@@ -473,6 +486,7 @@
         </Think>
       </Response>
     </Model>
+    
     <Model>
       <Pattern>XBLACKP2</Pattern>
       <Response>
@@ -482,6 +496,7 @@
         </Think>
       </Response>
     </Model>
+    
     <Model>
       <Pattern>XBLACKP5</Pattern>
       <Response>
@@ -494,6 +509,7 @@
         </Think>
       </Response>
     </Model>
+    
     <Model>
       <Pattern>XADDPLAYER</Pattern>
       <Response>
@@ -569,6 +585,7 @@
         </Think>
       </Response>
     </Model>
+    
     <Model>
       <Pattern>XADDPLAYERACE</Pattern>
       <Response>
@@ -642,6 +659,7 @@
         </Think>
       </Response>
     </Model>
+    
     <Model>
       <Pattern>XDEALERCARD</Pattern>
       <Response>
@@ -734,6 +752,7 @@
         </Think>
       </Response>
     </Model>
+    
     <Model>
       <Pattern>XBLACKD1</Pattern>
       <Response>
@@ -742,6 +761,7 @@
         </Think>
       </Response>
     </Model>
+    
     <Model>
       <Pattern>XBLACKD2</Pattern>
       <Response>
@@ -751,6 +771,7 @@
         </Think>
       </Response>
     </Model>
+    
     <Model>
       <Pattern>XBLACKD5</Pattern>
       <Response>
@@ -763,6 +784,7 @@
         </Think>
       </Response>
     </Model>
+    
     <Model>
       <Pattern>XADDDEALER</Pattern>
       <Response>
@@ -844,6 +866,7 @@
         </Think>
       </Response>
     </Model>
+    
     <Model>
       <Pattern>XADDDEALERACE</Pattern>
       <Response>
@@ -897,6 +920,7 @@
         </Think>
       </Response>
     </Model>
+    
     <Model>
       <Pattern>S</Pattern>
       <Previous>TYPE H TO HIT *</Previous>
@@ -904,6 +928,7 @@
         <Goto>XDEALERCARD1</Goto>
       </Response>
     </Model>
+    
     <Model>
       <Pattern>XDEALERCARD1</Pattern>
       <Response>
@@ -918,6 +943,7 @@
         </Switch>
       </Response>
     </Model>
+    
     <Model>
       <Pattern>XDEALERFINISH</Pattern>
       <Response>
@@ -944,6 +970,7 @@
           </Switch>
         </Think>DEALER: <User Get="dealerhand" /><br /><User Get="dealertot" /><User Get="dealerace" />.<br /><br />PLAYER: <User Get="playerhand" /><br /><User Get="playertot" /><User Get="playerace" />.<br /><br /><User Get="bjresult" /><br />Bank: <User Get="coins" /><User Get="bankcoin" />.<br /><br /><Goto>XBJCHECKGAMEOVER</Goto><User Get="bjmessage" /></Response>
     </Model>
+    
     <Model>
       <Pattern>XWHOWON</Pattern>
       <Response>
@@ -1097,6 +1124,7 @@
         </Think>
       </Response>
     </Model>
+    
     <Model>
       <Pattern>WINBET</Pattern>
       <Response>
@@ -1159,6 +1187,7 @@
         </Think>
       </Response>
     </Model>
+    
     <Model>
       <Pattern>BJBONUS</Pattern>
       <Response>
@@ -1210,6 +1239,7 @@
         </Think>
       </Response>
     </Model>
+    
     <Model>
       <Pattern>LOSEBET</Pattern>
       <Response>
@@ -1278,6 +1308,7 @@
         </Think>
       </Response>
     </Model>
+    
     <Model>
       <Pattern>XBJADD5</Pattern>
       <Response>
@@ -1288,6 +1319,7 @@
         <Goto>XBJADD1</Goto>
       </Response>
     </Model>
+    
     <Model>
       <Pattern>XBJADD15</Pattern>
       <Response>
@@ -1296,6 +1328,7 @@
         <Goto>XBJADD5</Goto>
       </Response>
     </Model>
+    
     <Model>
       <Pattern>XBJSUB5</Pattern>
       <Response>
@@ -1306,6 +1339,7 @@
         <Goto>XBJSUB1</Goto>
       </Response>
     </Model>
+    
     <Model>
       <Pattern>XBJSUB15</Pattern>
       <Response>
@@ -1314,6 +1348,7 @@
         <Goto>XBJSUB5</Goto>
       </Response>
     </Model>
+    
     <Model>
       <Pattern>XBJCHECKGAMEOVER</Pattern>
       <Response>
@@ -1330,6 +1365,7 @@
         </Think>
       </Response>
     </Model>
+    
     <Model>
       <Pattern>XBJADD1</Pattern>
       <Response>
@@ -2089,6 +2125,7 @@
         </Think>
       </Response>
     </Model>
+    
     <Model>
       <Pattern>XBJSUB1</Pattern>
       <Response>
@@ -2845,5 +2882,6 @@
         </Think>
       </Response>
     </Model>
+    
   </Concept>
 </Siml>
